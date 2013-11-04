@@ -2214,7 +2214,7 @@
                           </children>
                           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gnvGwURMEeOr84LKM5Kx0w" x="3410" y="476"/>
                         </children>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ZozIdiHEeKbSP8yI9KBNA" x="1108" y="15" width="3411"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ZozIdiHEeKbSP8yI9KBNA" x="1795" y="-51" width="3411"/>
                       </children>
                       <children xmi:type="umlnotation:UMLShape" xmi:id="_UmYgQNiJEeKbSP8yI9KBNA" element="_UmU14NiJEeKbSP8yI9KBNA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                         <children xmi:type="notation:DecorationNode" xmi:id="_UmZHUNiJEeKbSP8yI9KBNA" type="ImageCompartment">
@@ -2458,7 +2458,7 @@
                           <children xmi:type="notation:BasicDecorationNode" xmi:id="_pbpy0EShEeOkE_P4HrgvnA" type="Parent"/>
                           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pbjFIUShEeOkE_P4HrgvnA" y="-186"/>
                         </children>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pbFLEUShEeOkE_P4HrgvnA" x="-344" y="567"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pbFLEUShEeOkE_P4HrgvnA" x="211" y="567"/>
                       </children>
                     </children>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1_MVAdJoEeKtTdTdcgbcAQ" x="396" y="396" width="10523"/>
@@ -2973,7 +2973,7 @@
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_wQkiM0RfEeOr84LKM5Kx0w" type="InPartitions"/>
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_wQkiNERfEeOr84LKM5Kx0w" type="Name"/>
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_wQkiNURfEeOr84LKM5Kx0w" type="Parent"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQj7IURfEeOr84LKM5Kx0w" x="1040" y="34401"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQj7IURfEeOr84LKM5Kx0w" x="733" y="34137"/>
                       </children>
                       <children xmi:type="umlnotation:UMLShape" xmi:id="_DnTtYERgEeOr84LKM5Kx0w" element="_DnR4MERgEeOr84LKM5Kx0w" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                         <children xmi:type="notation:DecorationNode" xmi:id="_DnUUcERgEeOr84LKM5Kx0w" type="ImageCompartment">
@@ -3779,7 +3779,7 @@
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_MBuiINiKEeKbSP8yI9KBNA" value="1"/>
             </outputValue>
           </node>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_JThE4NiJEeKbSP8yI9KBNA" name="Entrega Ficha de Contratacion by Lysander" incoming="_ytscoNiKEeKbSP8yI9KBNA" inPartition="_3y68cNJoEeKtTdTdcgbcAQ">
+          <node xmi:type="uml:OpaqueAction" xmi:id="_JThE4NiJEeKbSP8yI9KBNA" name="Entrega Ficha de Contratacion" incoming="_ytscoNiKEeKbSP8yI9KBNA" inPartition="_3y68cNJoEeKtTdTdcgbcAQ">
             <outputValue xmi:id="_caHQYNiLEeKbSP8yI9KBNA" outgoing="_caTdoNiLEeKbSP8yI9KBNA" inPartition="_3y68cNJoEeKtTdTdcgbcAQ" type="_smvnINh3EeKZRfoW2CfqFQ">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_caH3cNiLEeKbSP8yI9KBNA" value="1"/>
             </outputValue>
