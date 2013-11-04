@@ -6,3 +6,4 @@ Proyecto de servicios
 Integrantes:
 ================
 Apaza Arroyo, Felix Ruddy
+Quevedo Grimaldo, Ricardo Francisco
