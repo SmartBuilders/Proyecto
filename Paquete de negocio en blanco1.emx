@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BusinessModeling="http:///schemas/BusinessModeling/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/BusinessModeling/2 pathmap://BM_PROFILES/BM.epx#_biXOMFSlEduDJ7xushbBPA?Business%20Modeling/BusinessModeling?">
   <uml:Model xmi:id="__fu-ALjIEeKsZ9Izt2_v0A" name="Paquete de negocio en blanco1">
     <eAnnotations xmi:id="__fu-AbjIEeKsZ9Izt2_v0A" source="uml2.diagrams" references="__fu-ArjIEeKsZ9Izt2_v0A">
@@ -2214,7 +2214,7 @@
                           </children>
                           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gnvGwURMEeOr84LKM5Kx0w" x="3410" y="476"/>
                         </children>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ZozIdiHEeKbSP8yI9KBNA" x="1927" y="-2495" width="3411"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ZozIdiHEeKbSP8yI9KBNA" x="950" y="-2618" width="3411"/>
                       </children>
                       <children xmi:type="umlnotation:UMLShape" xmi:id="_UmYgQNiJEeKbSP8yI9KBNA" element="_UmU14NiJEeKbSP8yI9KBNA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                         <children xmi:type="notation:DecorationNode" xmi:id="_UmZHUNiJEeKbSP8yI9KBNA" type="ImageCompartment">
@@ -2225,7 +2225,7 @@
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_UmaVcdiJEeKbSP8yI9KBNA" type="Kind"/>
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uma8gNiJEeKbSP8yI9KBNA" type="Name"/>
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_Uma8gdiJEeKbSP8yI9KBNA" type="Parent"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UmYgQdiJEeKbSP8yI9KBNA" x="7207" y="-2495"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UmYgQdiJEeKbSP8yI9KBNA" x="6943" y="-2486"/>
                       </children>
                       <children xmi:type="umlnotation:UMLShape" xmi:id="_2C9vUNiKEeKbSP8yI9KBNA" element="_2C76INiKEeKbSP8yI9KBNA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                         <children xmi:type="notation:DecorationNode" xmi:id="_2C-WYNiKEeKbSP8yI9KBNA" type="ImageCompartment">
@@ -2482,7 +2482,7 @@
                           <children xmi:type="notation:BasicDecorationNode" xmi:id="_juKTcUTAEeOXLtnojOGUwA" type="Parent"/>
                           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_juJFUUTAEeOXLtnojOGUwA" y="-186"/>
                         </children>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_juDlwUTAEeOXLtnojOGUwA" x="211" y="-1967"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_juDlwUTAEeOXLtnojOGUwA" x="-53" y="-1958"/>
                       </children>
                     </children>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1_MVAdJoEeKtTdTdcgbcAQ" x="396" y="396" width="10523"/>
