@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BusinessModeling="http:///schemas/BusinessModeling/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/BusinessModeling/2 pathmap://BM_PROFILES/BM.epx#_biXOMFSlEduDJ7xushbBPA?Business%20Modeling/BusinessModeling?">
   <uml:Model xmi:id="__fu-ALjIEeKsZ9Izt2_v0A" name="Paquete de negocio en blanco1">
     <eAnnotations xmi:id="__fu-AbjIEeKsZ9Izt2_v0A" source="uml2.diagrams" references="__fu-ArjIEeKsZ9Izt2_v0A">
@@ -178,7 +178,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_-hbwwdJFEeKGvMxla4g0tw" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_-hcX0NJFEeKGvMxla4g0tw" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_-hc-4NJFEeKGvMxla4g0tw" visible="false" type="Extension_Points"/>
-            <element xmi:type="uml:UseCase" href="Paquete%20de%20negocio%20en%20blanco.emx#_7zhaELt9EeKg1-Cp1ku8KA?Modelo%20de%20Caso%20de%20Uso%20de%20Negocio/Caso%20Uso%20de%20Negocio/Cambio%20de%20Categoría%20a%20Solicitud%20del%20Usuario?"/>
+            <element xmi:type="uml:UseCase" href="Paquete%20de%20negocio%20en%20blanco.emx#_7zhaELt9EeKg1-Cp1ku8KA?Modelo%20de%20Caso%20de%20Uso%20de%20Negocio/Caso%20Uso%20de%20Negocio/Cambio%20de%20Categoría%20de%20Servicio?"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-hZUgdJFEeKGvMxla4g0tw" y="2219"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_H3FRgNJGEeKGvMxla4g0tw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image" useClassifierShape="true">
@@ -189,7 +189,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_H3HGsdJGEeKGvMxla4g0tw" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_H3HtwNJGEeKGvMxla4g0tw" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_H3HtwdJGEeKGvMxla4g0tw" visible="false" type="Extension_Points"/>
-            <element xmi:type="uml:UseCase" href="Paquete%20de%20negocio%20en%20blanco.emx#_KAcy0Lt-EeKg1-Cp1ku8KA?Modelo%20de%20Caso%20de%20Uso%20de%20Negocio/Caso%20Uso%20de%20Negocio/Contratación%20de%20Servicios?"/>
+            <element xmi:type="uml:UseCase" href="Paquete%20de%20negocio%20en%20blanco.emx#_KAcy0Lt-EeKg1-Cp1ku8KA?Modelo%20de%20Caso%20de%20Uso%20de%20Negocio/Caso%20Uso%20de%20Negocio/Contratación%20de%20Servicios%20de%20Agua%20Potable?"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H3FRgdJGEeKGvMxla4g0tw" x="1585" y="5389"/>
           </children>
           <element xsi:nil="true"/>
@@ -4481,10 +4481,10 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_RG53ENJGEeKGvMxla4g0tw" supplier="_bCMQ8NJFEeKGvMxla4g0tw" client="_bCMQ8NJFEeKGvMxla4g0tw"/>
       <packagedElement xmi:type="uml:Realization" xmi:id="_S2x5QNJGEeKGvMxla4g0tw" client="_bCMQ8NJFEeKGvMxla4g0tw">
-        <supplier xmi:type="uml:UseCase" href="Paquete%20de%20negocio%20en%20blanco.emx#_7zhaELt9EeKg1-Cp1ku8KA?Modelo%20de%20Caso%20de%20Uso%20de%20Negocio/Caso%20Uso%20de%20Negocio/Cambio%20de%20Categoría%20a%20Solicitud%20del%20Usuario?"/>
+        <supplier xmi:type="uml:UseCase" href="Paquete%20de%20negocio%20en%20blanco.emx#_7zhaELt9EeKg1-Cp1ku8KA?Modelo%20de%20Caso%20de%20Uso%20de%20Negocio/Caso%20Uso%20de%20Negocio/Cambio%20de%20Categoría%20de%20Servicio?"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_TZVzwNJGEeKGvMxla4g0tw" client="_p5dnMNJFEeKGvMxla4g0tw">
-        <supplier xmi:type="uml:UseCase" href="Paquete%20de%20negocio%20en%20blanco.emx#_KAcy0Lt-EeKg1-Cp1ku8KA?Modelo%20de%20Caso%20de%20Uso%20de%20Negocio/Caso%20Uso%20de%20Negocio/Contratación%20de%20Servicios?"/>
+        <supplier xmi:type="uml:UseCase" href="Paquete%20de%20negocio%20en%20blanco.emx#_KAcy0Lt-EeKg1-Cp1ku8KA?Modelo%20de%20Caso%20de%20Uso%20de%20Negocio/Caso%20Uso%20de%20Negocio/Contratación%20de%20Servicios%20de%20Agua%20Potable?"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_O3eWoNI8EeKGvMxla4g0tw" name="Entidades del Negocio">

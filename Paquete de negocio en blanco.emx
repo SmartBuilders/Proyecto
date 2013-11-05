@@ -45,7 +45,7 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_a-Yv5L3JEeKdlbpcfItrRQ" type="Name"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_a-Yv5b3JEeKdlbpcfItrRQ" type="Parent"/>
           <children xmi:type="notation:ListCompartment" xmi:id="_a-Yv5r3JEeKdlbpcfItrRQ" visible="false" type="Extension_Points"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a-Yv573JEeKdlbpcfItrRQ" x="10189" y="2134"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a-Yv573JEeKdlbpcfItrRQ" x="10189" y="2134" width="3914" height="2881"/>
         </children>
         <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_a-ZW973JEeKdlbpcfItrRQ" element="_k_T5ALxaEeK4lY04OTPiaA" fontName="Segoe UI" fillColor="14211288" transparency="0" gradient="14211288, 16777215, 0" lineWidth="1" showStereotype="Image" useClassifierShape="true">
           <children xmi:type="notation:DecorationNode" xmi:id="_a-ZW-L3JEeKdlbpcfItrRQ" type="ImageCompartment">
@@ -73,6 +73,18 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_aACtgUSuEeOkE_P4HrgvnA" type="Name"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_aACtgkSuEeOkE_P4HrgvnA" type="Parent"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aABfYUSuEeOkE_P4HrgvnA" x="16896" y="6864"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wjbzgEXCEeOEhJS8tEHaFw" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>Eliminar actor&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_wjcakEXCEeOEhJS8tEHaFw" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_wjcakUXCEeOEhJS8tEHaFw" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_wjbzgUXCEeOEhJS8tEHaFw"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_wjbzgkXCEeOEhJS8tEHaFw"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wjbzg0XCEeOEhJS8tEHaFw" x="15689" y="8387"/>
         </children>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_a-alEL3JEeKdlbpcfItrRQ" element="_Gfy_cLuSEeKg1-Cp1ku8KA" source="_a-YI0L3JEeKdlbpcfItrRQ" target="_a-YI173JEeKdlbpcfItrRQ" fontName="Segoe UI" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_a-alEb3JEeKdlbpcfItrRQ" type="NameLabel">
@@ -682,8 +694,8 @@
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_Mci-oLt6EeKg1-Cp1ku8KA" supplier="_-6ZoQLt5EeKg1-Cp1ku8KA" client="_-EYmQLt5EeKg1-Cp1ku8KA"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_7zhaELt9EeKg1-Cp1ku8KA" name="Cambio de Categoría a Solicitud del Usuario" clientDependency="_xEoOQL3JEeKdlbpcfItrRQ"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_KAcy0Lt-EeKg1-Cp1ku8KA" name="Contratación de Servicios" clientDependency="_wf2GML3JEeKdlbpcfItrRQ"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_7zhaELt9EeKg1-Cp1ku8KA" name="Cambio de Categoría de Servicio" clientDependency="_xEoOQL3JEeKdlbpcfItrRQ"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_KAcy0Lt-EeKg1-Cp1ku8KA" name="Contratación de Servicios de Agua Potable" clientDependency="_wf2GML3JEeKdlbpcfItrRQ"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_NENHoLuSEeKg1-Cp1ku8KA" memberEnd="_NEPj4LuSEeKg1-Cp1ku8KA _NETOQLuSEeKg1-Cp1ku8KA" navigableOwnedEnd="_NEPj4LuSEeKg1-Cp1ku8KA">
         <ownedEnd xmi:id="_NEPj4LuSEeKg1-Cp1ku8KA" name="contratación de Servicios" visibility="private" type="_KAcy0Lt-EeKg1-Cp1ku8KA" association="_NENHoLuSEeKg1-Cp1ku8KA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NERZELuSEeKg1-Cp1ku8KA" value="1"/>
