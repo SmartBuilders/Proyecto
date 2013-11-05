@@ -1965,8 +1965,8 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_oCrR0OO2EeKF9bMn8CeBMw" name="Registrar Solicitud de Nueva Contratación"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_rFUjcOO2EeKF9bMn8CeBMw" name="Generar Cotización de Servicios">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_oCrR0OO2EeKF9bMn8CeBMw" name="Registrar Solicitud de Nueva Contratación" clientDependency="__2SeEEW4EeOEhJS8tEHaFw"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_rFUjcOO2EeKF9bMn8CeBMw" name="Generar Cotización de Servicios" clientDependency="_VGL_wEW4EeOEhJS8tEHaFw">
         <include xmi:id="_42NxwEWxEeOn0vU3IwM72w" addition="_wcnpkEWxEeOn0vU3IwM72w"/>
         <extensionPoint xmi:id="_PCZ5AOO7EeKF9bMn8CeBMw" name="Puntodeextensión1"/>
       </packagedElement>
@@ -1974,13 +1974,13 @@
         <include xmi:id="_6HyHUEWxEeOn0vU3IwM72w" addition="_wcnpkEWxEeOn0vU3IwM72w"/>
         <extensionPoint xmi:id="_3p660PR9EeKIGLqn75v4Eg" name="Puntodeextensión1"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_02s98OO2EeKF9bMn8CeBMw" name="Generar Cuotas a Pagar">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_02s98OO2EeKF9bMn8CeBMw" name="Generar Cuotas a Pagar" clientDependency="_Vpwm4EW4EeOEhJS8tEHaFw">
         <extend xmi:id="_3p00MPR9EeKIGLqn75v4Eg" extendedCase="_vV8EEOO2EeKF9bMn8CeBMw" extensionLocation="_3p660PR9EeKIGLqn75v4Eg"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_7emfAOO2EeKF9bMn8CeBMw" name="Registrar Pago de Contrato"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_7emfAOO2EeKF9bMn8CeBMw" name="Registrar Pago de Contrato" clientDependency="_WD8BcEW4EeOEhJS8tEHaFw"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_pZecIEWfEeODn71C-Ux1oA" name="Consultar Contrato" clientDependency="_tMQaIEWzEeOn0vU3IwM72w"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_7Amq4EWfEeODn71C-Ux1oA" name="Buscar Cuotas a Pagar"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_wcnpkEWxEeOn0vU3IwM72w" name="Buscar Solicitud">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_7Amq4EWfEeODn71C-Ux1oA" name="Buscar Cuotas a Pagar" clientDependency="_WgOU0EW4EeOEhJS8tEHaFw"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_wcnpkEWxEeOn0vU3IwM72w" name="Buscar Solicitud" clientDependency="_AM5AMEW5EeOEhJS8tEHaFw">
         <extensionPoint xmi:id="_Cf3zoEWyEeOn0vU3IwM72w" name="Puntodeextensión1"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_tMQaIEWzEeOn0vU3IwM72w" client="_pZecIEWfEeODn71C-Ux1oA">
@@ -1988,6 +1988,24 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_toS14EWzEeOn0vU3IwM72w" client="_vV8EEOO2EeKF9bMn8CeBMw">
         <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_goxrcEWzEeOn0vU3IwM72w?Modelo%20de%20Análisis/Contrato/RA_Generar%20Contrato%20de%20Nueva%20Conexión?"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_VGL_wEW4EeOEhJS8tEHaFw" client="_rFUjcOO2EeKF9bMn8CeBMw">
+        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_5SQl0EW3EeOEhJS8tEHaFw?Modelo%20de%20Análisis/Pagos/RA_Generar%20Cotizacion%20de%20Servicios?"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_Vpwm4EW4EeOEhJS8tEHaFw" client="_02s98OO2EeKF9bMn8CeBMw">
+        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_AcxEsEW4EeOEhJS8tEHaFw?Modelo%20de%20Análisis/Pagos/RA_Generar%20Cuotas%20a%20Pagar?"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_WD8BcEW4EeOEhJS8tEHaFw" client="_7emfAOO2EeKF9bMn8CeBMw">
+        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_B3L0QEW4EeOEhJS8tEHaFw?Modelo%20de%20Análisis/Pagos/RA_Registrar%20Pago%20de%20Contrato?"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_WgOU0EW4EeOEhJS8tEHaFw" client="_7Amq4EWfEeODn71C-Ux1oA">
+        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_DbkYIEW4EeOEhJS8tEHaFw?Modelo%20de%20Análisis/Pagos/RA_Buscar%20Cuotas%20a%20Pagar?"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="__2SeEEW4EeOEhJS8tEHaFw" client="_oCrR0OO2EeKF9bMn8CeBMw">
+        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_5amNAEW4EeOEhJS8tEHaFw?Modelo%20de%20Análisis/Solicitud/RA_Registrar%20Solicitud%20de%20Nueva%20Contratacion?"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_AM5AMEW5EeOEhJS8tEHaFw" client="_wcnpkEWxEeOn0vU3IwM72w">
+        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_7iJvYEW4EeOEhJS8tEHaFw?Modelo%20de%20Análisis/Solicitud/RA_Buscar%20Solicitud?"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_kU2ugOOxEeKF9bMn8CeBMw" name="Reportes">
@@ -2300,9 +2318,18 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_McekgO2_EeKnAunNZ4WGcw" name="Ingresar al Sistema"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_Msc6MO2_EeKnAunNZ4WGcw" name="Mantener Usuario"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_dE9zAEWeEeODn71C-Ux1oA" name="Mantener Perfiles"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_McekgO2_EeKnAunNZ4WGcw" name="Ingresar al Sistema" clientDependency="_tmqr8EW4EeOEhJS8tEHaFw"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Msc6MO2_EeKnAunNZ4WGcw" name="Mantener Usuario" clientDependency="_sjnTgEW4EeOEhJS8tEHaFw"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_dE9zAEWeEeODn71C-Ux1oA" name="Mantener Perfiles" clientDependency="_tE2_YEW4EeOEhJS8tEHaFw"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_sjnTgEW4EeOEhJS8tEHaFw" client="_Msc6MO2_EeKnAunNZ4WGcw">
+        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_h5eFAEW4EeOEhJS8tEHaFw?Modelo%20de%20Análisis/Seguridad/RA_Mantener%20Usuario?"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_tE2_YEW4EeOEhJS8tEHaFw" client="_dE9zAEWeEeODn71C-Ux1oA">
+        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_jC9coEW4EeOEhJS8tEHaFw?Modelo%20de%20Análisis/Seguridad/RA_Mantener%20Perfiles?"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_tmqr8EW4EeOEhJS8tEHaFw" client="_McekgO2_EeKnAunNZ4WGcw">
+        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Análisis.emx#_nZWOEEW4EeOEhJS8tEHaFw?Modelo%20de%20Análisis/Seguridad/RA_Ingresar%20al%20Sistema?"/>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <profileApplication xmi:id="_PECdlOOmEeKF9bMn8CeBMw">
