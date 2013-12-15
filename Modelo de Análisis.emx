@@ -1460,7 +1460,7 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_Yy4m4EWrEeOn0vU3IwM72w" name="Contrato" clientDependency="_8EpfsEc9EeOCOPaUCRG36A _UH-84Ec-EeOCOPaUCRG36A">
       <eAnnotations xmi:id="_Yy51AEWrEeOn0vU3IwM72w" source="uml2.diagrams" references="_Yy51AUWrEeOn0vU3IwM72w">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Yy51AUWrEeOn0vU3IwM72w" type="Freeform" name="Principal">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Yy51AUWrEeOn0vU3IwM72w" type="Freeform" name="Contrato">
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_R8RawEWzEeOn0vU3IwM72w" fontName="Segoe UI" fontHeight="8" fillColor="9891566" transparency="0" lineColor="2342590" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_R8RawUWzEeOn0vU3IwM72w" type="ImageCompartment">
               <layoutConstraint xmi:type="notation:Size" xmi:id="_R8RawkWzEeOn0vU3IwM72w" width="2196" height="1296"/>
@@ -4162,7 +4162,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ZzJxEEWrEeOn0vU3IwM72w" name="Seguridad">
       <eAnnotations xmi:id="_ZzK_MEWrEeOn0vU3IwM72w" source="uml2.diagrams" references="_ZzK_MUWrEeOn0vU3IwM72w">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ZzK_MUWrEeOn0vU3IwM72w" type="Freeform" name="Principal">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ZzK_MUWrEeOn0vU3IwM72w" type="Freeform" name="Seguridad">
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_dTgmgEW4EeOEhJS8tEHaFw" fontName="Segoe UI" fontHeight="8" fillColor="5807585" transparency="0" lineColor="1336755" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_dThNkEW4EeOEhJS8tEHaFw" type="ImageCompartment">
               <layoutConstraint xmi:type="notation:Size" xmi:id="_dThNkUW4EeOEhJS8tEHaFw" width="2216" height="1322"/>
@@ -4381,21 +4381,21 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_8GyqMEc8EeOCOPaUCRG36A" name="Reporte">
       <eAnnotations xmi:id="_8HAFkEc8EeOCOPaUCRG36A" source="uml2.diagrams" references="_8HAFkUc8EeOCOPaUCRG36A">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_8HAFkUc8EeOCOPaUCRG36A" type="Freeform" name="Main">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_8HAFkUc8EeOCOPaUCRG36A" type="Freeform" name="Reporte">
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_8jPVoEc8EeOCOPaUCRG36A" name="Solicitud de Cambio de Categoria">
       <eAnnotations xmi:id="_8jP8sEc8EeOCOPaUCRG36A" source="uml2.diagrams" references="_8jP8sUc8EeOCOPaUCRG36A">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_8jP8sUc8EeOCOPaUCRG36A" type="Freeform" name="Main">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_8jP8sUc8EeOCOPaUCRG36A" type="Freeform" name="Cambio de Categoria">
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_87UecEc8EeOCOPaUCRG36A" name="Inspeccion" clientDependency="_6CFyEEc9EeOCOPaUCRG36A">
       <eAnnotations xmi:id="_87VFgEc8EeOCOPaUCRG36A" source="uml2.diagrams" references="_87VFgUc8EeOCOPaUCRG36A">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_87VFgUc8EeOCOPaUCRG36A" type="Freeform" name="Main">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_87VFgUc8EeOCOPaUCRG36A" type="Freeform" name="Inspección">
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
@@ -4403,14 +4403,14 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_TWlxoEc9EeOCOPaUCRG36A" name="Dirección">
       <eAnnotations xmi:id="_TWmYsEc9EeOCOPaUCRG36A" source="uml2.diagrams" references="_TWmYsUc9EeOCOPaUCRG36A">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_TWmYsUc9EeOCOPaUCRG36A" type="Freeform" name="Main">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_TWmYsUc9EeOCOPaUCRG36A" type="Freeform" name="Direccion">
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_jryVkGXVEeONac45-K04OQ" name="Cliente">
       <eAnnotations xmi:id="_jr0KwGXVEeONac45-K04OQ" source="uml2.diagrams" references="_jr0KwWXVEeONac45-K04OQ">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_jr0KwWXVEeONac45-K04OQ" type="Freeform" name="Principal">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_jr0KwWXVEeONac45-K04OQ" type="Freeform" name="Cliente">
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
