@@ -1492,6 +1492,15 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QngV4GXhEeOfRbnW-BV_tg" value="1"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_zEFH4GYaEeOt36DEbQu3mw" navigableOwnedEnd="_zEG9EGYaEeOt36DEbQu3mw">
+      <ownedEnd xmi:id="_zEG9EGYaEeOt36DEbQu3mw" name="cI_ValidarCambioCategoria" visibility="private" association="_zEFH4GYaEeOt36DEbQu3mw">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_q6-FAGYVEeOt36DEbQu3mw?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_ValidarCambioCategoria?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zEHkIWYaEeOt36DEbQu3mw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zEHkIGYaEeOt36DEbQu3mw" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_zEG9EGYaEeOt36DEbQu3mw?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_ValidarCambioCategoria?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_zEJZUGYaEeOt36DEbQu3mw?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_ValidarCambioCategoria/encargado%20de%20Trámite%20Documentario?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_7rrSsOOrEeKF9bMn8CeBMw" name="Casos de Uso">
     <eAnnotations xmi:id="_7rr5wOOrEeKF9bMn8CeBMw" source="uml2.diagrams" references="_7rsg0OOrEeKF9bMn8CeBMw">
