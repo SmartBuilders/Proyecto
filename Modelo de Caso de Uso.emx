@@ -1501,6 +1501,15 @@
       <memberEnd href="#_zEG9EGYaEeOt36DEbQu3mw?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_ValidarCambioCategoria?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_zEJZUGYaEeOt36DEbQu3mw?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_ValidarCambioCategoria/encargado%20de%20Trámite%20Documentario?"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1t36IGcWEeODI9Z5GB0Z0w" navigableOwnedEnd="_1t36IWcWEeODI9Z5GB0Z0w">
+      <ownedEnd xmi:id="_1t36IWcWEeODI9Z5GB0Z0w" name="cI_BuscarCliente" visibility="private" association="_1t36IGcWEeODI9Z5GB0Z0w">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_qNXEIGbxEeO7E5iywQq6wQ?Modelo%20de%20Análisis/Cliente/CI_BuscarCliente?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1t36I2cWEeODI9Z5GB0Z0w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1t36ImcWEeODI9Z5GB0Z0w" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_1t36IWcWEeODI9Z5GB0Z0w?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_BuscarCliente?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_1uBrIGcWEeODI9Z5GB0Z0w?Modelo%20de%20Análisis/Cliente/CI_BuscarCliente/usuario?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_7rrSsOOrEeKF9bMn8CeBMw" name="Casos de Uso">
     <eAnnotations xmi:id="_7rr5wOOrEeKF9bMn8CeBMw" source="uml2.diagrams" references="_7rsg0OOrEeKF9bMn8CeBMw">
