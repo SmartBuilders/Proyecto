@@ -4602,7 +4602,7 @@
           <message xmi:id="_Vb6pEGfvEeOrgvYBxwwRQg" name="obtener cuotas" receiveEvent="_Vb73MGfvEeOrgvYBxwwRQg" sendEvent="_Vb7QIGfvEeOrgvYBxwwRQg" connector="_9EqKUGfuEeOrgvYBxwwRQg"/>
           <message xmi:id="_crAF8GfvEeOrgvYBxwwRQg" name="Buscar cuotas" receiveEvent="_crAtAWfvEeOrgvYBxwwRQg" sendEvent="_crAtAGfvEeOrgvYBxwwRQg" connector="_9Zi1MGfuEeOrgvYBxwwRQg"/>
           <message xmi:id="_g2Vd8GfvEeOrgvYBxwwRQg" name="Muestra cuotas" receiveEvent="_g2WsEGfvEeOrgvYBxwwRQg" sendEvent="_g2WFAGfvEeOrgvYBxwwRQg" connector="__JzR4GfuEeOrgvYBxwwRQg"/>
-          <message xmi:id="_kdIlgGfvEeOrgvYBxwwRQg" name="Selecciona Cuota" receiveEvent="_kdJMkWfvEeOrgvYBxwwRQg" sendEvent="_kdJMkGfvEeOrgvYBxwwRQg" connector="_8ii7wGfuEeOrgvYBxwwRQg"/>
+          <message xmi:id="_kdIlgGfvEeOrgvYBxwwRQg" name="Selecciona primera Cuota pendiente" receiveEvent="_kdJMkWfvEeOrgvYBxwwRQg" sendEvent="_kdJMkGfvEeOrgvYBxwwRQg" connector="_8ii7wGfuEeOrgvYBxwwRQg"/>
           <message xmi:id="_mtW7sGfvEeOrgvYBxwwRQg" name="Aceptar" receiveEvent="_mtXiwGfvEeOrgvYBxwwRQg" sendEvent="_mtW7sWfvEeOrgvYBxwwRQg" connector="_8ii7wGfuEeOrgvYBxwwRQg"/>
           <message xmi:id="_qXAi8GfvEeOrgvYBxwwRQg" name="cargar" receiveEvent="_qXBxEGfvEeOrgvYBxwwRQg" sendEvent="_qXBKAGfvEeOrgvYBxwwRQg" connector="_9EqKUGfuEeOrgvYBxwwRQg"/>
         </ownedBehavior>
