@@ -110,4 +110,16 @@
     </eAnnotations>
     <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
   </profileApplication>
+  <profileApplication xmi:id="_5ri0wHVoEeOQeaY_0D8OUQ">
+    <eAnnotations xmi:id="_5sM8EHVoEeOQeaY_0D8OUQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="perfiles/WebModeler.epx#_ZEgZ4Jm1Ed2Oi-ICzns2YA?WebModeler/WebModeler?"/>
+    </eAnnotations>
+    <appliedProfile href="perfiles/WebModeler.epx#_ZDnB4Jm1Ed2Oi-ICzns2YA?WebModeler?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_7hx9oHVoEeOQeaY_0D8OUQ">
+    <eAnnotations xmi:id="_7hx9oXVoEeOQeaY_0D8OUQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="perfiles/j2ee.epx#_ZM_nbpm1Ed2Oi-ICzns2YA?j2ee/j2ee?"/>
+    </eAnnotations>
+    <appliedProfile href="perfiles/j2ee.epx#_ZKwywJm1Ed2Oi-ICzns2YA?j2ee?"/>
+  </profileApplication>
 </uml:Package>
