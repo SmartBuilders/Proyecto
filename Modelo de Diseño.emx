@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WebModeler="http:///schemas/WebModeler/_ZEgZ3pm1Ed2Oi-ICzns2YA/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/WebModeler/_ZEgZ3pm1Ed2Oi-ICzns2YA/0 perfiles/WebModeler.epx#_ZEgZ4Jm1Ed2Oi-ICzns2YA?WebModeler/WebModeler?">
   <uml:Package xmi:id="_Jj0L9XP6EeO_xvJ7K_Ss8A" name="Modelo de Diseño">
     <eAnnotations xmi:id="_Jj0L9nP6EeO_xvJ7K_Ss8A" source="uml2.diagrams">
@@ -4692,83 +4692,761 @@
       </eAnnotations>
       <packagedElement xmi:type="uml:Package" xmi:id="_GdnOsHWNEeOarr3JPGmy1w" name="Cambios de Categoria">
         <eAnnotations xmi:id="_Gdpq8HWNEeOarr3JPGmy1w" source="uml2.diagrams" references="_Gdpq8XWNEeOarr3JPGmy1w">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Gdpq8XWNEeOarr3JPGmy1w" type="Freeform" name="Main">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Gdpq8XWNEeOarr3JPGmy1w" type="Freeform" name="Cambios de Categoria">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_l-Kz8HWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_l-Kz8nWkEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_l-Kz83WkEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_l-LbAHWkEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_l-LbAXWkEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_l-LbAnWkEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_l-LbA3WkEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_--IrgOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Evaluar%20Solicitud%20de%20Cambio%20de%20Categoria?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l-Kz8XWkEeOilPhC335iRA" x="1320" y="3300" width="5052"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_mehH8HWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_mehvAHWkEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_mehvAXWkEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_meiWEHWkEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_meiWEXWkEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_meiWEnWkEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_meiWE3WkEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#__f2RcOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Registrar%20Solicitud%20de%20Cambio%20de%20Categoria?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mehH8XWkEeOilPhC335iRA" x="1320" y="5676" width="5263"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_mtZ4gHWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_mtZ4gnWkEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_mtZ4g3WkEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mtafkHWkEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mtafkXWkEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mtafknWkEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_mtafk3WkEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_-KK38OO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Validar%20Solicitud%20de%20Cambio%20de%20Categoria?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mtZ4gXWkEeOilPhC335iRA" x="1452" y="686" width="4972"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_nBMXMHWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_nBM-QHWkEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_nBM-QXWkEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nBNlUHWkEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nBNlUXWkEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nBOMYHWkEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_nBOMYXWkEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_37BmoEc3EeOCOPaUCRG36A?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Verificar%20Cambio%20de%20Categoría?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nBMXMXWkEeOilPhC335iRA" x="2244" y="8052" width="3438"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_qJ2KMHWkEeOilPhC335iRA" element="_qJ08EHWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qJ2xQHWkEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_qJ2xQXWkEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qJ2xQnWkEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qJ2xQ3WkEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qJ2xRHWkEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_qJ2xRXWkEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qJ3YUHWkEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJ2KMXWkEeOilPhC335iRA" x="10956" y="1188"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_qavs8HWkEeOilPhC335iRA" element="_qaue0HWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qawUAHWkEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_qawUAXWkEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qawUAnWkEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qawUA3WkEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qawUBHWkEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_qaw7EHWkEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qaw7EXWkEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qavs8XWkEeOilPhC335iRA" x="10824" y="3960"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_qihv8HWkEeOilPhC335iRA" element="_qigh0HWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qiiXAHWkEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_qiiXAXWkEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qiiXAnWkEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qii-EHWkEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qii-EXWkEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_qii-EnWkEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qii-E3WkEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qihv8XWkEeOilPhC335iRA" x="10770" y="6042"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_qvaVYHWkEeOilPhC335iRA" element="_qvZHQHWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qva8cHWkEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_qva8cXWkEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qva8cnWkEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qvbjgHWkEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qvbjgXWkEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_qvbjgnWkEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qvbjg3WkEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qvaVYXWkEeOilPhC335iRA" x="10692" y="8316"/>
+            </children>
             <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_U6gpMHWlEeOilPhC335iRA" element="_U6e0AHWlEeOilPhC335iRA" source="_qvaVYHWkEeOilPhC335iRA" target="_nBMXMHWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_U6hQQHWlEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_U6hQQnWlEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_U6hQQ3WlEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U6hQQXWlEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U6gpMXWlEeOilPhC335iRA" points="[-106, 8, 232, -31]$[-315, 17, 23, -22]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_WHOT8HWlEeOilPhC335iRA" element="_WHMewHWlEeOilPhC335iRA" source="_qihv8HWkEeOilPhC335iRA" target="_mehH8HWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_WHO7AHWlEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_WHO7AnWlEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_WHO7A3WlEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WHO7AXWlEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WHOT8XWlEeOilPhC335iRA" points="[-142, 13, 225, -7]$[-406, 35, -39, 15]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_XVzm8HWlEeOilPhC335iRA" element="_XVxxwHWlEeOilPhC335iRA" source="_qavs8HWkEeOilPhC335iRA" target="_l-Kz8HWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_XVzm8nWlEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_XV0OAHWlEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_XV0OAXWlEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XVzm83WlEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XVzm8XWlEeOilPhC335iRA" points="[-138, 3, 271, -8]$[-458, 9, -49, -2]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_XwQuUHWlEeOilPhC335iRA" element="_XwO5IHWlEeOilPhC335iRA" source="_qJ2KMHWkEeOilPhC335iRA" target="_mtZ4gHWkEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_XwRVYHWlEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_XwRVYnWlEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_XwRVY3WlEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XwRVYXWlEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XwQuUXWlEeOilPhC335iRA" points="[-138, 3, 288, 2]$[-390, -16, 36, -17]"/>
+            </edges>
           </contents>
         </eAnnotations>
         <eAnnotations xmi:id="_OTkeUHWNEeOarr3JPGmy1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_OTlFYHWNEeOarr3JPGmy1w" key="Paquete de Diseño"/>
         </eAnnotations>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_qJ08EHWkEeOilPhC335iRA" name="RD_Validad Solicitud de Cambio de Categoria" clientDependency="_XwO5IHWlEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_qaue0HWkEeOilPhC335iRA" name="RD_Evaluar Solicitud de Cambio de Categoria" clientDependency="_XVxxwHWlEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_qigh0HWkEeOilPhC335iRA" name="RD_Registrar Solicitud de Cambio de Categoria" clientDependency="_WHMewHWlEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_qvZHQHWkEeOilPhC335iRA" name="RD_Verificar Cambio de Categoria" clientDependency="_U6e0AHWlEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_U6e0AHWlEeOilPhC335iRA" client="_qvZHQHWkEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_37BmoEc3EeOCOPaUCRG36A?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Verificar%20Cambio%20de%20Categoría?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_WHMewHWlEeOilPhC335iRA" client="_qigh0HWkEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#__f2RcOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Registrar%20Solicitud%20de%20Cambio%20de%20Categoria?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_XVxxwHWlEeOilPhC335iRA" client="_qaue0HWkEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_--IrgOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Evaluar%20Solicitud%20de%20Cambio%20de%20Categoria?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_XwO5IHWlEeOilPhC335iRA" client="_qJ08EHWkEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_-KK38OO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Validar%20Solicitud%20de%20Cambio%20de%20Categoria?"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_HneZwHWNEeOarr3JPGmy1w" name="Cliente">
         <eAnnotations xmi:id="_HnfA0HWNEeOarr3JPGmy1w" source="uml2.diagrams" references="_HnfA0XWNEeOarr3JPGmy1w">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_HnfA0XWNEeOarr3JPGmy1w" type="Freeform" name="Main">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_HnfA0XWNEeOarr3JPGmy1w" type="Freeform" name="Cliente">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_Eay10HWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Eazc4HWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_Eazc4XWiEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Eazc4nWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Eazc43WiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ea0D8HWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_Ea0D8XWiEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_DiQzgFNBEeOq3OsgXDqhPA?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cliente/Buscar%20Cliente?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Eay10XWiEeOilPhC335iRA" x="3122" y="2196"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_FvO5MHWiEeOilPhC335iRA" element="_FvNrEHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
+              <children xmi:type="notation:DecorationNode" xmi:id="_FvPgQHWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_FvPgQXWiEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_FvPgQnWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_FvPgQ3WiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_FvQHUHWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_FvQuYHWiEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_FvQuYXWiEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FvO5MXWiEeOilPhC335iRA" x="7524" y="2376"/>
+            </children>
             <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kJntIHWkEeOilPhC335iRA" element="_kJmfAHWkEeOilPhC335iRA" source="_FvO5MHWiEeOilPhC335iRA" target="_Eay10HWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_kJoUMHWkEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_kJoUMnWkEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_kJo7QHWkEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kJoUMXWkEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kJntIXWkEeOilPhC335iRA" points="[-67, -5, 120, -11]$[-154, -10, 33, -16]"/>
+            </edges>
           </contents>
         </eAnnotations>
         <eAnnotations xmi:id="_OTmTgHWNEeOarr3JPGmy1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_OTmTgXWNEeOarr3JPGmy1w" key="Paquete de Diseño"/>
         </eAnnotations>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_FvNrEHWiEeOilPhC335iRA" name="RD_Buscar Cliente" clientDependency="_kJmfAHWkEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_kJmfAHWkEeOilPhC335iRA" client="_FvNrEHWiEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_DiQzgFNBEeOq3OsgXDqhPA?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cliente/Buscar%20Cliente?"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_IKzwUHWNEeOarr3JPGmy1w" name="Contratos">
         <eAnnotations xmi:id="_IK0XYHWNEeOarr3JPGmy1w" source="uml2.diagrams" references="_IK0XYXWNEeOarr3JPGmy1w">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_IK0XYXWNEeOarr3JPGmy1w" type="Freeform" name="Main">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_IK0XYXWNEeOarr3JPGmy1w" type="Freeform" name="Contratos">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_XlskcHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_XltLgHWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_XltLgXWiEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_XltykHWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_XltykXWiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_XltyknWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_Xltyk3WiEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_oCrR0OO2EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Registrar%20Solicitud%20de%20Nueva%20Conexión?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XlskcXWiEeOilPhC335iRA" x="1931" y="952"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_YOMu4HWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_YON9AHWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_YON9AXWiEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YON9AnWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YON9A3WiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YOOkEHWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_YOOkEXWiEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_vV8EEOO2EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Generar%20Contrato%20de%20Nueva%20Conexión?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YONV8HWiEeOilPhC335iRA" x="1980" y="3960"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_YxQ_sHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_YxRmwHWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_YxRmwXWiEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YxSN0HWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YxSN0XWiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YxS04HWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_YxS04XWiEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_7ryy8GXKEeONac45-K04OQ?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Evaluar%20Solicitud%20de%20Nueva%20Conexión?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YxQ_sXWiEeOilPhC335iRA" x="1980" y="6732"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_ZF2voHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ZF39wHWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_ZF39wXWiEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZF39wnWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZF4k0HWiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZF4k0XWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_ZF5L4HWiEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_7DKgsHT0EeOmiOwhw9AgYQ?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Buscar%20Solicitud%20de%20Nueva%20Conexión?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZF2voXWiEeOilPhC335iRA" x="1980" y="9108"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_ZYZRIHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ZYZRInWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_ZYZ4MHWiEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZYZ4MXWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZYZ4MnWiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZYk3UHWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_ZYleYHWiEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_wcnpkEWxEeOn0vU3IwM72w?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Buscar%20Contrato?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZYZRIXWiEeOilPhC335iRA" x="3300" y="11484"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_pp5wwHWiEeOilPhC335iRA" element="_pp37kHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_pp5wwnWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_pp5ww3WiEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pp6X0HWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pp6X0XWiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pp6X0nWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_pp6X03WiEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_pp6-4HWiEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pp5wwXWiEeOilPhC335iRA" x="10927" y="978"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_qFSFMHWiEeOilPhC335iRA" element="_qFPo8HWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qFSsQHWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_qFSsQXWiEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qFTTUHWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qFTTUXWiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qFTTUnWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_qFTTU3WiEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qFT6YHWiEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qFSFMXWiEeOilPhC335iRA" x="11059" y="4021"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_qU4ncHWiEeOilPhC335iRA" element="_qU3ZUHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qU5OgHWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_qU5OgXWiEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qU51kHWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qU51kXWiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qU51knWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_qU6coHWiEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qU6coXWiEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qU4ncXWiEeOilPhC335iRA" x="10556" y="7011"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_qjJF4HWiEeOilPhC335iRA" element="_qjH3wHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qjJs8HWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_qjJs8XWiEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qjJs8nWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qjKUAHWiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qjKUAXWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_qjKUAnWiEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qjKUA3WiEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qjJF4XWiEeOilPhC335iRA" x="10318" y="9498"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_rErFoHWiEeOilPhC335iRA" element="_rEopYHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_rErssHWiEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_rErssXWiEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_rErssnWiEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_rEsTwHWiEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_rEsTwXWiEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_rEsTwnWiEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_rEsTw3WiEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rErFoXWiEeOilPhC335iRA" x="10186" y="11826"/>
+            </children>
             <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_fub7QHWkEeOilPhC335iRA" element="_fuaGEHWkEeOilPhC335iRA" source="_rErFoHWiEeOilPhC335iRA" target="_ZYZRIHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_fub7QnWkEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_fuciUHWkEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_fuciUXWkEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fub7Q3WkEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fub7QXWkEeOilPhC335iRA" points="[-47, 1, 156, 0]$[-205, 19, -2, 18]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_gDuOwHWkEeOilPhC335iRA" element="_gDsZkHWkEeOilPhC335iRA" source="_qjJF4HWiEeOilPhC335iRA" target="_ZF2voHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_gDuOwnWkEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_gDu10HWkEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_gDu10XWkEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gDuOw3WkEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gDuOwXWkEeOilPhC335iRA" points="[-86, -3, 158, -2]$[-221, -15, 23, -14]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_gdvRQHWkEeOilPhC335iRA" element="_gdtcEHWkEeOilPhC335iRA" source="_qU4ncHWiEeOilPhC335iRA" target="_YxQ_sHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_gdvRQnWkEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_gdv4UHWkEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_gdv4UXWkEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gdvRQ3WkEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gdvRQXWkEeOilPhC335iRA" points="[-87, -2, 164, -5]$[-232, -13, 19, -16]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_g2JxQHWkEeOilPhC335iRA" element="_g2H8EHWkEeOilPhC335iRA" source="_qFSFMHWiEeOilPhC335iRA" target="_YOMu4HWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_g2KYUHWkEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_g2KYUnWkEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_g2K_YHWkEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g2KYUXWkEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_g2JxQXWkEeOilPhC335iRA" points="[-89, 4, 176, -5]$[-228, 10, 37, 1]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_hZUvwHWkEeOilPhC335iRA" element="_hZS6kHWkEeOilPhC335iRA" source="_pp5wwHWiEeOilPhC335iRA" target="_XlskcHWiEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_hZVW0HWkEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_hZVW0nWkEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_hZVW03WkEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hZVW0XWkEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hZUvwXWkEeOilPhC335iRA" points="[-91, 6, 172, -4]$[-297, 2, -34, -8]"/>
+            </edges>
           </contents>
         </eAnnotations>
         <eAnnotations xmi:id="_OTnhoHWNEeOarr3JPGmy1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_OTnhoXWNEeOarr3JPGmy1w" key="Paquete de Diseño"/>
         </eAnnotations>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_pp37kHWiEeOilPhC335iRA" name="RD_Registrar Solicitud de Nueva Conexion" clientDependency="_hZS6kHWkEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_qFPo8HWiEeOilPhC335iRA" name="RD_Generar Contrato de Nueva Conexión" clientDependency="_g2H8EHWkEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_qU3ZUHWiEeOilPhC335iRA" name="RD_Evaluar Solicitud de Nueva Conexión" clientDependency="_gdtcEHWkEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_qjH3wHWiEeOilPhC335iRA" name="RD_Buscar Solicitud de Nueva Conexión" clientDependency="_gDsZkHWkEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_rEopYHWiEeOilPhC335iRA" name="RD_Buscar Contrato" clientDependency="_fuaGEHWkEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_fuaGEHWkEeOilPhC335iRA" client="_rEopYHWiEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_wcnpkEWxEeOn0vU3IwM72w?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Buscar%20Contrato?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_gDsZkHWkEeOilPhC335iRA" client="_qjH3wHWiEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_7DKgsHT0EeOmiOwhw9AgYQ?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Buscar%20Solicitud%20de%20Nueva%20Conexión?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_gdtcEHWkEeOilPhC335iRA" client="_qU3ZUHWiEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_7ryy8GXKEeONac45-K04OQ?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Evaluar%20Solicitud%20de%20Nueva%20Conexión?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_g2H8EHWkEeOilPhC335iRA" client="_qFPo8HWiEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_vV8EEOO2EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Generar%20Contrato%20de%20Nueva%20Conexión?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_hZS6kHWkEeOilPhC335iRA" client="_pp37kHWiEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_oCrR0OO2EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Registrar%20Solicitud%20de%20Nueva%20Conexión?"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_IsdE0HWNEeOarr3JPGmy1w" name="Dirección">
         <eAnnotations xmi:id="_Isdr4HWNEeOarr3JPGmy1w" source="uml2.diagrams" references="_Isdr4XWNEeOarr3JPGmy1w">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Isdr4XWNEeOarr3JPGmy1w" type="Freeform" name="Main">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Isdr4XWNEeOarr3JPGmy1w" type="Freeform" name="Dirección">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_F3zw8HWjEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_F3zw8nWjEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_F3zw83WjEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_F30YAHWjEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_F30YAXWjEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_F30YAnWjEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_F30YA3WjEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_KVbekEZKEeOXEonL5vjxnA?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Buscar%20Dirección?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F3zw8XWjEeOilPhC335iRA" x="5503" y="2301"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_K3sLUHWjEeOilPhC335iRA" element="_K3q9MHWjEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_K3syYHWjEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_K3syYXWjEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_K3tZcHWjEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_K3tZcXWjEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_K3tZcnWjEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_K3uAgHWjEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_K3uAgXWjEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K3sLUXWjEeOilPhC335iRA" x="10428" y="2904"/>
+            </children>
             <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_OqRsIHWjEeOilPhC335iRA" source="_F3zw8HWjEeOilPhC335iRA" target="_K3sLUHWjEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_OqRsInWjEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_OqRsJHWjEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_OqSTMHWjEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OqRsI3WjEeOilPhC335iRA" y="-186"/>
+              </children>
+              <element xmi:type="uml:Realization" href="Modelo%20de%20Caso%20de%20Uso.emx#_OqPP4HWjEeOilPhC335iRA?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/%3CRealización%3E?"/>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OqRsIXWjEeOilPhC335iRA" points="[25, -10, -153, 47]$[241, -64, 63, -7]"/>
+            </edges>
           </contents>
         </eAnnotations>
         <eAnnotations xmi:id="_OTovwHWNEeOarr3JPGmy1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_OTovwXWNEeOarr3JPGmy1w" key="Paquete de Diseño"/>
         </eAnnotations>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_K3q9MHWjEeOilPhC335iRA" name="RD_Buscar Dirección"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_JjFx4HWNEeOarr3JPGmy1w" name="Inspecciones de Predio">
         <eAnnotations xmi:id="_JjGY8HWNEeOarr3JPGmy1w" source="uml2.diagrams" references="_JjHAAHWNEeOarr3JPGmy1w">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_JjHAAHWNEeOarr3JPGmy1w" type="Freeform" name="Main">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_JjHAAHWNEeOarr3JPGmy1w" type="Freeform" name="Inspecciones de Predio">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_jYeuoHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jYfVsHWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_jYfVsXWlEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jYfVsnWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jYfVs3WlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jYfVtHWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_jYf8wHWlEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_h4ybUEczEeOCOPaUCRG36A?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Generar%20Ruta%20para%20la%20Inspección?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jYeuoXWlEeOilPhC335iRA" x="3143" y="4884" width="2777"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_jkYcoHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jkZDsHWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_jkZDsXWlEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jkZDsnWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jkZDs3WlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jkZDtHWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_jkZqwHWlEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_96zmQOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Generar%20Informe%20de%20Inspección%20de%20Predio?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkYcoXWlEeOilPhC335iRA" x="2376" y="2244" width="4047"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_mBh0gHWlEeOilPhC335iRA" element="_mBgmYHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_mBibkHWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_mBibkXWlEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mBibknWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mBibk3WlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mBjCoHWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_mBjCoXWlEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_mBjConWlEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mBh0gXWlEeOilPhC335iRA" x="9948" y="2301"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_mOqRkHWlEeOilPhC335iRA" element="_mOn1UHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_mOq4oHWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_mOq4oXWlEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mOq4onWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mOq4o3WlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_mOq4pHWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_mOrfsHWlEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_mOrfsXWlEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mOqRkXWlEeOilPhC335iRA" x="9445" y="5582"/>
+            </children>
             <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_qEKjgHWlEeOilPhC335iRA" element="_qEJVYHWlEeOilPhC335iRA" source="_mBh0gHWlEeOilPhC335iRA" target="_jkYcoHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qELKkHWlEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_qELKknWlEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_qELKk3WlEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qELKkXWlEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qEKjgXWlEeOilPhC335iRA" points="[-59, -2, 209, -13]$[-233, -6, 35, -17]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_qtJPEHWlEeOilPhC335iRA" element="_qtIA8HWlEeOilPhC335iRA" source="_mOqRkHWlEeOilPhC335iRA" target="_jYeuoHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qtJ2IHWlEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_qtJ2InWlEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_qtJ2I3WlEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qtJ2IXWlEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qtJPEXWlEeOilPhC335iRA" points="[-59, -5, 185, 8]$[-204, -28, 40, -15]"/>
+            </edges>
           </contents>
         </eAnnotations>
         <eAnnotations xmi:id="_OTpW0HWNEeOarr3JPGmy1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_OTp94HWNEeOarr3JPGmy1w" key="Paquete de Diseño"/>
         </eAnnotations>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_mBgmYHWlEeOilPhC335iRA" name="RD_Generar Informe de Inspección de Predio" clientDependency="_qEJVYHWlEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_mOn1UHWlEeOilPhC335iRA" name="RD_Generar Ruta para la Inspección" clientDependency="_qtIA8HWlEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_qEJVYHWlEeOilPhC335iRA" client="_mBgmYHWlEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_96zmQOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Generar%20Informe%20de%20Inspección%20de%20Predio?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_qtIA8HWlEeOilPhC335iRA" client="_mOn1UHWlEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_h4ybUEczEeOCOPaUCRG36A?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Generar%20Ruta%20para%20la%20Inspección?"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_LCPQcHWNEeOarr3JPGmy1w" name="Pagos">
         <eAnnotations xmi:id="_LCP3gHWNEeOarr3JPGmy1w" source="uml2.diagrams" references="_LCP3gXWNEeOarr3JPGmy1w">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_LCP3gXWNEeOarr3JPGmy1w" type="Freeform" name="Main">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_LCP3gXWNEeOarr3JPGmy1w" type="Freeform" name="Pagos">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_RWLRsHWjEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_RWMf0HWjEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_RWMf0XWjEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RWMf0nWjEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RWMf03WjEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RWMf1HWjEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_RWMf1XWjEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_7emfAOO2EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Registrar%20Pago?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RWLRsXWjEeOilPhC335iRA" x="3828" y="4356"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_SQ1jIHWjEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_SQ2KMHWjEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_SQ2KMXWjEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_SQ2xQHWjEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_SQ2xQXWjEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_SQ2xQnWjEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_SQ2xQ3WjEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_02s98OO2EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Generar%20Cuotas%20de%20Pago?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SQ1jIXWjEeOilPhC335iRA" x="3300" y="1584"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_VMSnoHWjEeOilPhC335iRA" element="_VMRZgHWjEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_VMTOsHWjEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_VMTOsXWjEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VMTOsnWjEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VMTOs3WjEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VMTOtHWjEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_VMT1wHWjEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_VMT1wXWjEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VMSnoXWjEeOilPhC335iRA" x="8580" y="4752"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_VrHRoHWjEeOilPhC335iRA" element="_VrGDgHWjEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_VrH4sHWjEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_VrH4sXWjEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VrIfwHWjEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VrIfwXWjEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VrIfwnWjEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_VrIfw3WjEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_VrJG0HWjEeOilPhC335iRA" visible="false" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VrHRoXWjEeOilPhC335iRA" x="8580" y="1716"/>
+            </children>
             <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_ZtZl4HWkEeOilPhC335iRA" element="_ZtYXwHWkEeOilPhC335iRA" source="_VrHRoHWjEeOilPhC335iRA" target="_SQ1jIHWjEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ZtaM8HWkEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZtaM8nWkEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZtaM83WkEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZtaM8XWkEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZtZl4XWkEeOilPhC335iRA" points="[-93, -1, 127, -3]$[-266, 12, -46, 10]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_a0g-8HWkEeOilPhC335iRA" element="_a0fJwHWkEeOilPhC335iRA" source="_VMSnoHWjEeOilPhC335iRA" target="_RWLRsHWjEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_a0g-8nWkEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_a0hmAHWkEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_a0hmAXWkEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a0g-83WkEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a0g-8XWkEeOilPhC335iRA" points="[-68, -2, 132, 6]$[-152, -6, 48, 2]"/>
+            </edges>
           </contents>
         </eAnnotations>
         <eAnnotations xmi:id="_OTqk8HWNEeOarr3JPGmy1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_OTrMAHWNEeOarr3JPGmy1w" key="Paquete de Diseño"/>
         </eAnnotations>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_VMRZgHWjEeOilPhC335iRA" name="RD_Registrar Pago" clientDependency="_a0fJwHWkEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_VrGDgHWjEeOilPhC335iRA" name="RD_Generar Cuotas de Pago" clientDependency="_ZtYXwHWkEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_ZtYXwHWkEeOilPhC335iRA" client="_VrGDgHWjEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_02s98OO2EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Generar%20Cuotas%20de%20Pago?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_a0fJwHWkEeOilPhC335iRA" client="_VMRZgHWjEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_7emfAOO2EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Registrar%20Pago?"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Li1cEHWNEeOarr3JPGmy1w" name="Reporte">
         <eAnnotations xmi:id="_Li2DIHWNEeOarr3JPGmy1w" source="uml2.diagrams" references="_Li2DIXWNEeOarr3JPGmy1w">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Li2DIXWNEeOarr3JPGmy1w" type="Freeform" name="Main">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Li2DIXWNEeOarr3JPGmy1w" type="Freeform" name="Reporte">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_0NkccHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_0NlDgHWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_0NlDgXWlEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0NlDgnWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0NlqkHWlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0NlqkXWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_0NlqknWlEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_yffZgOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Reportes/Listar%20Estadisticas%20de%20Contrataciones?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NkccXWlEeOilPhC335iRA" x="1320" y="1056"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_0bFUAHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_0bFUAnWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_0bFUA3WlEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0bF7EHWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0bF7EXWlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0bF7EnWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_0bF7E3WlEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_DUFNgOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Reportes/Listar%20Servicios%20Contratados?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0bFUAXWlEeOilPhC335iRA" x="1716" y="4884"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_6pFuYHWlEeOilPhC335iRA" element="_6pEgQHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_6pFuYnWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_6pFuY3WlEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6pGVcHWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6pGVcXWlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6pGVcnWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_6pGVc3WlEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_6pGVdHWlEeOilPhC335iRA" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pFuYXWlEeOilPhC335iRA" x="8916" y="1137"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_67z2EHWlEeOilPhC335iRA" element="_67yn8HWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_670dIHWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_670dIXWlEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_670dInWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_670dI3WlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_670dJHWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_670dJXWlEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_671EMHWlEeOilPhC335iRA" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_67z2EXWlEeOilPhC335iRA" x="8546" y="5000"/>
+            </children>
             <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kcF10HWnEeOilPhC335iRA" element="_kcEAoHWnEeOilPhC335iRA" source="_6pFuYHWlEeOilPhC335iRA" target="_0NkccHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_kcGc4HWnEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_kcGc4nWnEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_kcGc43WnEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kcGc4XWnEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kcF10XWnEeOilPhC335iRA" points="[-124, 2, 183, -2]$[-258, 2, 49, -2]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k_7isHWnEeOilPhC335iRA" element="_k_5tgHWnEeOilPhC335iRA" source="_67z2EHWlEeOilPhC335iRA" target="_0bFUAHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_k_7isnWnEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_k_7itHWnEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_k_8JwHWnEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k_7is3WnEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k_7isXWnEeOilPhC335iRA" points="[-102, -7, 176, -10]$[-252, -18, 26, -21]"/>
+            </edges>
           </contents>
         </eAnnotations>
         <eAnnotations xmi:id="_OTrzEHWNEeOarr3JPGmy1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_OTrzEXWNEeOarr3JPGmy1w" key="Paquete de Diseño"/>
         </eAnnotations>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_6pEgQHWlEeOilPhC335iRA" name="RD_Listar Estadisticas de Contrataciones" clientDependency="_kcEAoHWnEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_67yn8HWlEeOilPhC335iRA" name="RD_Listar Servicios Contratados" clientDependency="_k_5tgHWnEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_kcEAoHWnEeOilPhC335iRA" client="_6pEgQHWlEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_yffZgOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Reportes/Listar%20Estadisticas%20de%20Contrataciones?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_k_5tgHWnEeOilPhC335iRA" client="_67yn8HWlEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_DUFNgOO3EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Reportes/Listar%20Servicios%20Contratados?"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_L_uzcHWNEeOarr3JPGmy1w" name="Seguridad">
         <eAnnotations xmi:id="_L_vagHWNEeOarr3JPGmy1w" source="uml2.diagrams" references="_L_vagXWNEeOarr3JPGmy1w">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_L_vagXWNEeOarr3JPGmy1w" type="Freeform" name="Main">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_L_vagXWNEeOarr3JPGmy1w" type="Freeform" name="Seguridad">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_1GkhAHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_1GlIEHWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_1GlIEXWlEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1GlIEnWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1GlvIHWlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1GlvIXWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_1GlvInWlEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_McekgO2_EeKnAunNZ4WGcw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Seguridad/Ingresar%20al%20Sistema?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1GkhAXWlEeOilPhC335iRA" x="2904" y="924"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_1ZQzgHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_1ZRakHWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_1ZRakXWlEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1ZRaknWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1ZSBoHWlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1ZSBoXWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_1ZSBonWlEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_Msc6MO2_EeKnAunNZ4WGcw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Seguridad/Mantener%20Usuario?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1ZQzgXWlEeOilPhC335iRA" x="2904" y="6204"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_1oEEgHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_1oErkHWlEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_1oErkXWlEeOilPhC335iRA" width="2216" height="1322"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1oErknWlEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1oFSoHWlEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1oFSoXWlEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_1oFSonWlEeOilPhC335iRA" visible="false" type="Extension_Points"/>
+              <element xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_dE9zAEWeEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Seguridad/Mantener%20Perfiles?"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1oEEgXWlEeOilPhC335iRA" x="2904" y="3564"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_o5-9cHWnEeOilPhC335iRA" element="_o5-WYHWnEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_o5_kgHWnEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_o5_kgXWnEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_o5_kgnWnEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_o6ALkHWnEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_o6ALkXWnEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_o6ALknWnEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_o6ALk3WnEeOilPhC335iRA" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o5-9cXWnEeOilPhC335iRA" x="10265" y="899"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_pIjk8HWnEeOilPhC335iRA" element="_pIiW0HWnEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_pIkMAHWnEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_pIkMAXWnEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pIkMAnWnEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pIkMA3WnEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pIkzEHWnEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_pIkzEXWnEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_pIkzEnWnEeOilPhC335iRA" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pIjk8XWnEeOilPhC335iRA" x="10345" y="3466"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_pZtmYHWnEeOilPhC335iRA" element="_pZs_UHWnEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_pZuNcXWnEeOilPhC335iRA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_pZuNcnWnEeOilPhC335iRA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pZuNc3WnEeOilPhC335iRA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pZu0gHWnEeOilPhC335iRA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_pZu0gXWnEeOilPhC335iRA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_pZu0gnWnEeOilPhC335iRA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_pZu0g3WnEeOilPhC335iRA" type="CollaborationCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZuNcHWnEeOilPhC335iRA" x="10107" y="6376"/>
+            </children>
             <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wMT7kHWnEeOilPhC335iRA" element="_wMStcHWnEeOilPhC335iRA" source="_o5-9cHWnEeOilPhC335iRA" target="_1GkhAHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wMUioHWnEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_wMUionWnEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_wMUio3WnEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wMUioXWnEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wMT7kXWnEeOilPhC335iRA" points="[-79, 2, 219, -6]$[-252, -1, 46, -9]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wkQhgHWnEeOilPhC335iRA" element="_wkPTYHWnEeOilPhC335iRA" source="_pIjk8HWnEeOilPhC335iRA" target="_1oEEgHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wkRIkHWnEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_wkRIknWnEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_wkRIk3WnEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wkRIkXWnEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wkQhgXWnEeOilPhC335iRA" points="[-77, 2, 225, -9]$[-269, -8, 33, -19]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_w9-pEHWnEeOilPhC335iRA" element="_w98z4HWnEeOilPhC335iRA" source="_pZtmYHWnEeOilPhC335iRA" target="_1ZQzgHWlEeOilPhC335iRA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_w9-pEnWnEeOilPhC335iRA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_w9_QIHWnEeOilPhC335iRA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_w9_QIXWnEeOilPhC335iRA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w9-pE3WnEeOilPhC335iRA" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w9-pEXWnEeOilPhC335iRA" points="[-78, -3, 215, -4]$[-335, 14, -42, 13]"/>
+            </edges>
           </contents>
         </eAnnotations>
         <eAnnotations xmi:id="_OTtBMHWNEeOarr3JPGmy1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_OTtBMXWNEeOarr3JPGmy1w" key="Paquete de Diseño"/>
         </eAnnotations>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_o5-WYHWnEeOilPhC335iRA" name="RD_Ingresar al Sistema" clientDependency="_wMStcHWnEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_pIiW0HWnEeOilPhC335iRA" name="RD_Mantener Perfiles" clientDependency="_wkPTYHWnEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_pZs_UHWnEeOilPhC335iRA" name="RD_Mantener Usuario" clientDependency="_w98z4HWnEeOilPhC335iRA"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_wMStcHWnEeOilPhC335iRA" client="_o5-WYHWnEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_McekgO2_EeKnAunNZ4WGcw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Seguridad/Ingresar%20al%20Sistema?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_wkPTYHWnEeOilPhC335iRA" client="_pIiW0HWnEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_dE9zAEWeEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Seguridad/Mantener%20Perfiles?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_w98z4HWnEeOilPhC335iRA" client="_pZs_UHWnEeOilPhC335iRA">
+          <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_Msc6MO2_EeKnAunNZ4WGcw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Seguridad/Mantener%20Usuario?"/>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_Jj0MS3P6EeO_xvJ7K_Ss8A">
