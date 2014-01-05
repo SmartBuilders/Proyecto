@@ -2291,12 +2291,9 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_wcnpkEWxEeOn0vU3IwM72w" name="Buscar Contrato">
         <extensionPoint xmi:id="_Cf3zoEWyEeOn0vU3IwM72w" name="Puntodeextensión1"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_KVbekEZKEeOXEonL5vjxnA" name="Buscar Dirección" clientDependency="_OqPP4HWjEeOilPhC335iRA"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_KVbekEZKEeOXEonL5vjxnA" name="Buscar Dirección"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_7ryy8GXKEeONac45-K04OQ" name="Evaluar Solicitud de Nueva Conexión"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_7DKgsHT0EeOmiOwhw9AgYQ" name="Buscar Solicitud de Nueva Conexión"/>
-      <packagedElement xmi:type="uml:Realization" xmi:id="_OqPP4HWjEeOilPhC335iRA" client="_KVbekEZKEeOXEonL5vjxnA">
-        <supplier xmi:type="uml:Collaboration" href="Modelo%20de%20Diseño.emx#_K3q9MHWjEeOilPhC335iRA?Modelo%20de%20Diseño/Realizacion%20de%20Diseño/Dirección/RD_Buscar%20Dirección?"/>
-      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_kU2ugOOxEeKF9bMn8CeBMw" name="Reportes">
       <eAnnotations xmi:id="_kU38oOOxEeKF9bMn8CeBMw" source="uml2.diagrams" references="_kU38oeOxEeKF9bMn8CeBMw">
