@@ -208,7 +208,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_5Sv5EGaoEeOOLuQla0j-6w" visible="false" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_5Sv5EWaoEeOOLuQla0j-6w" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_5SwgIGaoEeOOLuQla0j-6w" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Ss1wGaoEeOOLuQla0j-6w" x="12936" y="8580"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Ss1wGaoEeOOLuQla0j-6w" x="12936" y="8316"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_K5vTsGgDEeOrgvYBxwwRQg" element="_EOfLYGf9EeOrgvYBxwwRQg" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
           <children xmi:type="notation:DecorationNode" xmi:id="_K5wh0GgDEeOrgvYBxwwRQg" type="ImageCompartment">
@@ -4151,9 +4151,6 @@
         </ownedAttribute>
         <ownedAttribute xmi:id="__Np-AGa4EeOwRdOcNUIZbA" name="idSolNuevaConexion" visibility="private"/>
         <ownedAttribute xmi:id="_PAlGkHWTEeOilPhC335iRA" name="tipPersonaNC" visibility="private"/>
-        <ownedAttribute xmi:id="_QbTYIHWTEeOilPhC335iRA" name="NumMuniNC" visibility="private"/>
-        <ownedAttribute xmi:id="_ZOV7EHWTEeOilPhC335iRA" name="manzanaNC" visibility="private"/>
-        <ownedAttribute xmi:id="_bqcxIHWTEeOilPhC335iRA" name="loteNC" visibility="private"/>
         <ownedAttribute xmi:id="_d37VUHWTEeOilPhC335iRA" name="NumNC" visibility="private"/>
         <ownedAttribute xmi:id="_fyY24HWTEeOilPhC335iRA" name="ReferenciaNC" visibility="private"/>
         <ownedAttribute xmi:id="_mds4UHWTEeOilPhC335iRA" name="tipPredioNC" visibility="private"/>
@@ -12415,9 +12412,6 @@
   <LogicalDataModel:Attribute xmi:id="_oksE4HWREeOilPhC335iRA" base_Property="_okrd0HWREeOilPhC335iRA"/>
   <LogicalDataModel:Attribute xmi:id="_rsWZYXWREeOilPhC335iRA" base_Property="_rsWZYHWREeOilPhC335iRA"/>
   <LogicalDataModel:Attribute xmi:id="_PAni0HWTEeOilPhC335iRA" base_Property="_PAlGkHWTEeOilPhC335iRA"/>
-  <LogicalDataModel:Attribute xmi:id="_QbTYIXWTEeOilPhC335iRA" base_Property="_QbTYIHWTEeOilPhC335iRA"/>
-  <LogicalDataModel:Attribute xmi:id="_ZOWiIHWTEeOilPhC335iRA" base_Property="_ZOV7EHWTEeOilPhC335iRA"/>
-  <LogicalDataModel:Attribute xmi:id="_bqcxIXWTEeOilPhC335iRA" base_Property="_bqcxIHWTEeOilPhC335iRA"/>
   <LogicalDataModel:Attribute xmi:id="_d378YHWTEeOilPhC335iRA" base_Property="_d37VUHWTEeOilPhC335iRA"/>
   <LogicalDataModel:Attribute xmi:id="_fyY24XWTEeOilPhC335iRA" base_Property="_fyY24HWTEeOilPhC335iRA"/>
   <LogicalDataModel:Attribute xmi:id="_mds4UXWTEeOilPhC335iRA" base_Property="_mds4UHWTEeOilPhC335iRA"/>
