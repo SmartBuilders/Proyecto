@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_PEB2MOOmEeKF9bMn8CeBMw" name="Modelo de Caso de Uso" viewpoint="">
   <eAnnotations xmi:id="_PEB2MeOmEeKF9bMn8CeBMw" source="uml2.diagrams">
     <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_XbCkcOOmEeKF9bMn8CeBMw" type="Freeform" name="Organaización del MCU">
@@ -131,7 +131,7 @@
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_QqJU_FMvEeOthKmdsOvHPA" type="Name"/>
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_QqJU_VMvEeOthKmdsOvHPA" type="Parent"/>
         <children xmi:type="notation:ListCompartment" xmi:id="_QqJU_lMvEeOthKmdsOvHPA" visible="false" type="Extension_Points"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QqJU_1MvEeOthKmdsOvHPA" x="8976" y="2772" width="3016"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QqJU_1MvEeOthKmdsOvHPA" x="6600" y="2640" width="3016"/>
       </children>
       <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_QqJ8AFMvEeOthKmdsOvHPA" element="_96zmQOO3EeKF9bMn8CeBMw" fontName="Segoe UI" fontHeight="8" fillColor="5807585" transparency="0" lineColor="1336755" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_QqJ8AVMvEeOthKmdsOvHPA" type="ImageCompartment">
@@ -181,7 +181,7 @@
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_QqO0hFMvEeOthKmdsOvHPA" type="Name"/>
         <children xmi:type="notation:BasicDecorationNode" xmi:id="_QqO0hVMvEeOthKmdsOvHPA" type="Parent"/>
         <children xmi:type="notation:ListCompartment" xmi:id="_QqO0hlMvEeOthKmdsOvHPA" visible="false" type="Extension_Points"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QqO0h1MvEeOthKmdsOvHPA" x="5280" y="1584" width="4048"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QqO0h1MvEeOthKmdsOvHPA" x="10032" y="1584" width="4048"/>
       </children>
       <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_QqO0iFMvEeOthKmdsOvHPA" element="_yffZgOO3EeKF9bMn8CeBMw" fontName="Segoe UI" fontHeight="8" fillColor="9869042" transparency="0" lineColor="2302913" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_QqO0iVMvEeOthKmdsOvHPA" type="ImageCompartment">
@@ -1441,7 +1441,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zEHkIWYaEeOt36DEbQu3mw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zEHkIGYaEeOt36DEbQu3mw" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_zEG9EGYaEeOt36DEbQu3mw?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAssociation%3E/cI_ValidarCambioCategoria?"/>
+      <memberEnd href="#_zEG9EGYaEeOt36DEbQu3mw?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_ValidarCambioCategoria?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_zEJZUGYaEeOt36DEbQu3mw?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_ValidarCambioCategoria/encargado%20de%20Trámite%20Documentario?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_1t36IGcWEeODI9Z5GB0Z0w" navigableOwnedEnd="_1t36IWcWEeODI9Z5GB0Z0w">
@@ -1450,7 +1450,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1t36I2cWEeODI9Z5GB0Z0w" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1t36ImcWEeODI9Z5GB0Z0w" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_1t36IWcWEeODI9Z5GB0Z0w?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAssociation%3E/cI_BuscarCliente?"/>
+      <memberEnd href="#_1t36IWcWEeODI9Z5GB0Z0w?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_BuscarCliente?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_1uBrIGcWEeODI9Z5GB0Z0w?Modelo%20de%20Análisis/Cliente/CI_BuscarCliente/usuario?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_QBqCAGf-EeOrgvYBxwwRQg" navigableOwnedEnd="_QBr3MGf-EeOrgvYBxwwRQg">
@@ -1459,7 +1459,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QBtFUWf-EeOrgvYBxwwRQg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QBtFUGf-EeOrgvYBxwwRQg" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_QBr3MGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAssociation%3E/cI_MenuPrincipal?"/>
+      <memberEnd href="#_QBr3MGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_MenuPrincipal?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_QBu6gGf-EeOrgvYBxwwRQg?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_MenuPrincipal/técnico%20de%20Contrataciones?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_Qa_IAGf-EeOrgvYBxwwRQg" navigableOwnedEnd="_QbA9MGf-EeOrgvYBxwwRQg">
@@ -1468,7 +1468,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QbCLUWf-EeOrgvYBxwwRQg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QbCLUGf-EeOrgvYBxwwRQg" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_QbA9MGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAssociation%3E/cI_GenerarContrato?"/>
+      <memberEnd href="#_QbA9MGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_GenerarContrato?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_QbEAgGf-EeOrgvYBxwwRQg?Modelo%20de%20Análisis/Contratos/CI_GenerarContrato/técnico%20de%20Contrataciones?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_BYWH4GgBEeOrgvYBxwwRQg" navigableOwnedEnd="_BYX9EGgBEeOrgvYBxwwRQg">
@@ -1477,7 +1477,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BYZLMWgBEeOrgvYBxwwRQg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BYZLMGgBEeOrgvYBxwwRQg" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_BYX9EGgBEeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAssociation%3E/cI_MantenerPerfiles?"/>
+      <memberEnd href="#_BYX9EGgBEeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_MantenerPerfiles?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_BYbAYGgBEeOrgvYBxwwRQg?Modelo%20de%20Análisis/Seguridad/CI_MantenerPerfiles/administrador%20del%20Sistema?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_8ubOcHSNEeOPOc5cRfXNkA" memberEnd="_8udDoHSNEeOPOc5cRfXNkA _8uff4HSNEeOPOc5cRfXNkA" navigableOwnedEnd="_8udDoHSNEeOPOc5cRfXNkA _8uff4HSNEeOPOc5cRfXNkA">
@@ -1496,7 +1496,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B2QC8HZGEeOfPvoZ3ozlcg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B2Pb4HZGEeOfPvoZ3ozlcg" value="1"/>
       </ownedEnd>
-      <memberEnd href="#_B2IuMHZGEeOfPvoZ3ozlcg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAssociation%3E/evaluar_sol_con?"/>
+      <memberEnd href="#_B2IuMHZGEeOfPvoZ3ozlcg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/evaluar_sol_con?"/>
       <memberEnd href="Modelo%20de%20Diseño.emx#_B2TGQHZGEeOfPvoZ3ozlcg?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/Contratos/evaluar_sol_con.jsp/evaluar_sol_con.client/evaluar_sol_con/técnico%20de%20Contrataciones?"/>
     </packagedElement>
   </packagedElement>
