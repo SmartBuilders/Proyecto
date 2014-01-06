@@ -1499,6 +1499,15 @@
       <memberEnd href="#_B2IuMHZGEeOfPvoZ3ozlcg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/evaluar_sol_con?"/>
       <memberEnd href="Modelo%20de%20Diseño.emx#_B2TGQHZGEeOfPvoZ3ozlcg?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/Contratos/evaluar_sol_con.jsp/evaluar_sol_con.client/evaluar_sol_con/técnico%20de%20Contrataciones?"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ReAkEHbMEeOC98MjISI6DA" navigableOwnedEnd="_ReLjMHbMEeOC98MjISI6DA">
+      <ownedEnd xmi:id="_ReLjMHbMEeOC98MjISI6DA" name="gen_ruta_inspeccion" visibility="private" association="_ReAkEHbMEeOC98MjISI6DA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Diseño.emx#__Wm2IHWUEeOarr3JPGmy1w?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/Inspecciones%20de%20Predio/gen_ruta_inspeccion.jsp/gen_ruta_inspeccion.client/gen_ruta_inspeccion?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ReUtIHbMEeOC98MjISI6DA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ReUGEHbMEeOC98MjISI6DA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_ReLjMHbMEeOC98MjISI6DA?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/gen_ruta_inspeccion?"/>
+      <memberEnd href="Modelo%20de%20Diseño.emx#_ReXJYHbMEeOC98MjISI6DA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/Inspecciones%20de%20Predio/gen_ruta_inspeccion.jsp/gen_ruta_inspeccion.client/gen_ruta_inspeccion/inspector%20Comercial?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_7rrSsOOrEeKF9bMn8CeBMw" name="Casos de Uso">
     <eAnnotations xmi:id="_7rr5wOOrEeKF9bMn8CeBMw" source="uml2.diagrams" references="_7rsg0OOrEeKF9bMn8CeBMw">
