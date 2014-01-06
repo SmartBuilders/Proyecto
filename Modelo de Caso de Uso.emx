@@ -1260,7 +1260,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fGCgoO2_EeKnAunNZ4WGcw"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_J1IBYEWbEeODn71C-Ux1oA" name="Solicitante de Nueva Conexión "/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_J1IBYEWbEeODn71C-Ux1oA" name="Cliente"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_lX4EYEWeEeODn71C-Ux1oA" memberEnd="_lX7uwEWeEeODn71C-Ux1oA _lYBOUEWeEeODn71C-Ux1oA" navigableOwnedEnd="_lX7uwEWeEeODn71C-Ux1oA">
       <ownedEnd xmi:id="_lX7uwEWeEeODn71C-Ux1oA" name="mantener Perfiles" visibility="private" type="_dE9zAEWeEeODn71C-Ux1oA" association="_lX4EYEWeEeODn71C-Ux1oA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lX_ZIEWeEeODn71C-Ux1oA" value="1"/>
@@ -1507,6 +1507,51 @@
       </ownedEnd>
       <memberEnd href="#_ReLjMHbMEeOC98MjISI6DA?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/gen_ruta_inspeccion?"/>
       <memberEnd href="Modelo%20de%20Diseño.emx#_ReXJYHbMEeOC98MjISI6DA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/Inspecciones%20de%20Predio/gen_ruta_inspeccion.jsp/gen_ruta_inspeccion.client/gen_ruta_inspeccion/inspector%20Comercial?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_qEcgwHbsEeOCC_dXAJeolg" navigableOwnedEnd="_qEdu4HbsEeOCC_dXAJeolg">
+      <ownedEnd xmi:id="_qEdu4HbsEeOCC_dXAJeolg" name="dashboad.client" visibility="private" association="_qEcgwHbsEeOCC_dXAJeolg">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Diseño.emx#_DwchMHW2EeOilPhC335iRA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Dashboard.jsp/Dashboad.client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qEeV8XbsEeOCC_dXAJeolg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qEeV8HbsEeOCC_dXAJeolg" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_qEdu4HbsEeOCC_dXAJeolg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/dashboad.client?"/>
+      <memberEnd href="Modelo%20de%20Diseño.emx#_qEfkEHbsEeOCC_dXAJeolg?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Dashboard.jsp/Dashboad.client/técnico%20de%20Catastro?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jAlnAHbtEeOCC_dXAJeolg" navigableOwnedEnd="_jAm1IHbtEeOCC_dXAJeolg">
+      <ownedEnd xmi:id="_jAm1IHbtEeOCC_dXAJeolg" name="servlet_Contratos" visibility="private" association="_jAlnAHbtEeOCC_dXAJeolg">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Diseño.emx#_F12IcHWrEeOilPhC335iRA?Modelo%20de%20Diseño/Capas/Capa%20Controladora/Contratos/Servlet/Servlet_Contratos?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jAoDQHbtEeOCC_dXAJeolg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jAncMHbtEeOCC_dXAJeolg" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_jAm1IHbtEeOCC_dXAJeolg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/servlet_Contratos?"/>
+      <memberEnd href="Modelo%20de%20Diseño.emx#_jAoqUHbtEeOCC_dXAJeolg?Modelo%20de%20Diseño/Capas/Capa%20Controladora/Contratos/Servlet/Servlet_Contratos/cliente?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1BPJAHbtEeOCC_dXAJeolg" navigableOwnedEnd="_1BPwEHbtEeOCC_dXAJeolg">
+      <ownedEnd xmi:id="_1BPwEHbtEeOCC_dXAJeolg" name="index.cliente" visibility="private" association="_1BPJAHbtEeOCC_dXAJeolg">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Diseño.emx#_Eus5MHW2EeOilPhC335iRA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Index.jsp/Index.cliente?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1BRlQHbtEeOCC_dXAJeolg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1BQ-MHbtEeOCC_dXAJeolg" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_1BPwEHbtEeOCC_dXAJeolg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/index.cliente?"/>
+      <memberEnd href="Modelo%20de%20Diseño.emx#_1BSzYHbtEeOCC_dXAJeolg?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Index.jsp/Index.cliente/cliente?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_bfQ4sHbvEeOCC_dXAJeolg" navigableOwnedEnd="_bfSG0HbvEeOCC_dXAJeolg">
+      <ownedEnd xmi:id="_bfSG0HbvEeOCC_dXAJeolg" name="dashboad.client" visibility="private" association="_bfQ4sHbvEeOCC_dXAJeolg">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Diseño.emx#_DwchMHW2EeOilPhC335iRA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Dashboard.jsp/Dashboad.client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bfTU8HbvEeOCC_dXAJeolg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bfSt4HbvEeOCC_dXAJeolg" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_bfSG0HbvEeOCC_dXAJeolg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/dashboad.client?"/>
+      <memberEnd href="Modelo%20de%20Diseño.emx#_bfT8AHbvEeOCC_dXAJeolg?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Dashboard.jsp/Dashboad.client/técnico%20de%20Contrataciones?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mIfhMHbvEeOCC_dXAJeolg" navigableOwnedEnd="_mIgvUHbvEeOCC_dXAJeolg">
+      <ownedEnd xmi:id="_mIgvUHbvEeOCC_dXAJeolg" name="dashboad.client" visibility="private" association="_mIfhMHbvEeOCC_dXAJeolg">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Diseño.emx#_DwchMHW2EeOilPhC335iRA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Dashboard.jsp/Dashboad.client?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mIh9cHbvEeOCC_dXAJeolg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mIhWYHbvEeOCC_dXAJeolg" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_mIgvUHbvEeOCC_dXAJeolg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/dashboad.client?"/>
+      <memberEnd href="Modelo%20de%20Diseño.emx#_mIikgHbvEeOCC_dXAJeolg?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Dashboard.jsp/Dashboad.client/inspector%20Comercial2?"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_7rrSsOOrEeKF9bMn8CeBMw" name="Casos de Uso">
