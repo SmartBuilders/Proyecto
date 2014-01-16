@@ -5389,7 +5389,7 @@
                 <element xmi:type="uml:Property" href="Modelo%20de%20Caso%20de%20Uso.emx#_QBr3MGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_MenuPrincipal?"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_QB55oWf-EeOrgvYBxwwRQg" y="1058"/>
               </children>
-              <element xmi:type="uml:Association" href="Modelo%20de%20Caso%20de%20Uso.emx#_QBqCAGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAssociation%3E?"/>
+              <element xmi:type="uml:Association" href="Modelo%20de%20Caso%20de%20Uso.emx#_QBqCAGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E?"/>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QB2PQWf-EeOrgvYBxwwRQg" points="[12, -10, -206, 175]$[200, -167, -18, 18]"/>
             </edges>
             <edges xmi:type="umlnotation:UMLConnector" xmi:id="_QbLVQGf-EeOrgvYBxwwRQg" source="_yS_PIGf8EeOrgvYBxwwRQg" target="__NKmkGf8EeOrgvYBxwwRQg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -5434,11 +5434,40 @@
                 <element xmi:type="uml:Property" href="Modelo%20de%20Caso%20de%20Uso.emx#_QbA9MGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_GenerarContrato?"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_QbRb5Gf-EeOrgvYBxwwRQg" y="1058"/>
               </children>
-              <element xmi:type="uml:Association" href="Modelo%20de%20Caso%20de%20Uso.emx#_Qa_IAGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAssociation%3E?"/>
+              <element xmi:type="uml:Association" href="Modelo%20de%20Caso%20de%20Uso.emx#_Qa_IAGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E?"/>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QbLVQWf-EeOrgvYBxwwRQg" points="[20, 9, -173, -71]$[199, 93, 6, 13]"/>
             </edges>
           </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_OmBVYH5CEeO3jbGWylpxrg" type="Freeform" name="Clases Participantes">
+            <element xsi:nil="true"/>
+          </contents>
         </eAnnotations>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Tl8BcH5BEeO3jbGWylpxrg" name="Interacción1">
+          <eAnnotations xmi:id="_TqaRwH5BEeO3jbGWylpxrg" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_TqaRwX5BEeO3jbGWylpxrg" type="Communication" element="_Tl8BcH5BEeO3jbGWylpxrg" name="Flujo Basico" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_TqaRwn5BEeO3jbGWylpxrg" type="CommunicationFrame" element="_Tl8BcH5BEeO3jbGWylpxrg" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_TqaRw35BEeO3jbGWylpxrg" type="CommunicationCompartment">
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_JdMaYH5CEeO3jbGWylpxrg" element="_JdCpYH5CEeO3jbGWylpxrg" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                    <eAnnotations xmi:id="_JdMaYn5CEeO3jbGWylpxrg" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                      <details xmi:id="_JdMaY35CEeO3jbGWylpxrg" key="LifelineLabelStyle" value="Type Name Only"/>
+                    </eAnnotations>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_JdMaZH5CEeO3jbGWylpxrg" type="Name"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JdMaYX5CEeO3jbGWylpxrg" x="-53" y="52"/>
+                  </children>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_TqaRxH5BEeO3jbGWylpxrg" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqaRxX5BEeO3jbGWylpxrg" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+          <lifeline xmi:id="_JdCpYH5CEeO3jbGWylpxrg" name="técnico de Contrataciones" represents="_JdCpYX5CEeO3jbGWylpxrg"/>
+        </ownedBehavior>
+        <ownedAttribute xmi:id="_DLjdMH5CEeO3jbGWylpxrg" name="técnico de Contrataciones">
+          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_UZ93wOO0EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Actores/Técnico%20de%20Contrataciones?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JdCpYX5CEeO3jbGWylpxrg" name="técnico de Contrataciones2">
+          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_UZ93wOO0EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Actores/Técnico%20de%20Contrataciones?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_2arXYGa2EeOwRdOcNUIZbA" client="_s6dlYGa2EeOwRdOcNUIZbA">
         <supplier xmi:type="uml:UseCase" href="Modelo%20de%20Caso%20de%20Uso.emx#_vV8EEOO2EeKF9bMn8CeBMw?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Generar%20Contrato%20de%20Nueva%20Conexión?"/>
@@ -13162,4 +13191,6 @@
   <LogicalDataModel:PrimaryKey xmi:id="_N0pH0HqJEeONt_t7iXOO5A" base_Property="__Np-AGa4EeOwRdOcNUIZbA"/>
   <LogicalDataModel:PrimaryKey xmi:id="_PZ_8EHqJEeONt_t7iXOO5A" base_Property="_rTW6AGquEeOktNum13R4lw"/>
   <LogicalDataModel:PrimaryKey xmi:id="_QPTzcHqJEeONt_t7iXOO5A" base_Property="_g_gzAGqrEeOktNum13R4lw"/>
+  <LogicalDataModel:Attribute xmi:id="_DLjdMX5CEeO3jbGWylpxrg" base_Property="_DLjdMH5CEeO3jbGWylpxrg"/>
+  <LogicalDataModel:Attribute xmi:id="_JdCpYn5CEeO3jbGWylpxrg" base_Property="_JdCpYX5CEeO3jbGWylpxrg"/>
 </xmi:XMI>
