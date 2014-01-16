@@ -1405,15 +1405,6 @@
       <memberEnd href="#_QBr3MGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_MenuPrincipal?"/>
       <memberEnd href="Modelo%20de%20Análisis.emx#_QBu6gGf-EeOrgvYBxwwRQg?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_MenuPrincipal/técnico%20de%20Contrataciones?"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Qa_IAGf-EeOrgvYBxwwRQg" navigableOwnedEnd="_QbA9MGf-EeOrgvYBxwwRQg">
-      <ownedEnd xmi:id="_QbA9MGf-EeOrgvYBxwwRQg" name="cI_GenerarContrato" visibility="private" association="_Qa_IAGf-EeOrgvYBxwwRQg">
-        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_-7r1AGf8EeOrgvYBxwwRQg?Modelo%20de%20Análisis/Contratos/CI_GenerarContrato?"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QbCLUWf-EeOrgvYBxwwRQg" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QbCLUGf-EeOrgvYBxwwRQg" value="1"/>
-      </ownedEnd>
-      <memberEnd href="#_QbA9MGf-EeOrgvYBxwwRQg?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_GenerarContrato?"/>
-      <memberEnd href="Modelo%20de%20Análisis.emx#_QbEAgGf-EeOrgvYBxwwRQg?Modelo%20de%20Análisis/Contratos/CI_GenerarContrato/técnico%20de%20Contrataciones?"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_BYWH4GgBEeOrgvYBxwwRQg" navigableOwnedEnd="_BYX9EGgBEeOrgvYBxwwRQg">
       <ownedEnd xmi:id="_BYX9EGgBEeOrgvYBxwwRQg" name="cI_MantenerPerfiles" visibility="private" association="_BYWH4GgBEeOrgvYBxwwRQg">
         <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_3vuAwGgAEeOrgvYBxwwRQg?Modelo%20de%20Análisis/Seguridad/CI_MantenerPerfiles?"/>
