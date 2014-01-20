@@ -1203,7 +1203,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fGCgoO2_EeKnAunNZ4WGcw"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_J1IBYEWbEeODn71C-Ux1oA" name="Cliente"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_J1IBYEWbEeODn71C-Ux1oA" name="Solicitante"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_lX4EYEWeEeODn71C-Ux1oA" memberEnd="_lX7uwEWeEeODn71C-Ux1oA _lYBOUEWeEeODn71C-Ux1oA" navigableOwnedEnd="_lX7uwEWeEeODn71C-Ux1oA">
       <ownedEnd xmi:id="_lX7uwEWeEeODn71C-Ux1oA" name="mantener Perfiles" visibility="private" type="_dE9zAEWeEeODn71C-Ux1oA" association="_lX4EYEWeEeODn71C-Ux1oA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lX_ZIEWeEeODn71C-Ux1oA" value="1"/>
