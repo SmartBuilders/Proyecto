@@ -1224,7 +1224,7 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_pMwqY3T1EeOmiOwhw9AgYQ" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_pMwqZHT1EeOmiOwhw9AgYQ" type="Name"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_pMwqZXT1EeOmiOwhw9AgYQ" type="Parent"/>
-          <element xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Cliente?"/>
+          <element xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Solicitante?"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pMwqZnT1EeOmiOwhw9AgYQ" x="2089" y="1428" width="3254"/>
         </children>
         <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_pMwqZ3T1EeOmiOwhw9AgYQ" fontName="Segoe UI" fontHeight="8" fillColor="13027014" transparency="0" lineColor="10395294" lineWidth="1" showStereotype="Label">
@@ -3217,7 +3217,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_AZcYQmJyEeOofJ87FrsAbw" type="Stereotype"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_AZcYQ2JyEeOofJ87FrsAbw" type="Name"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_AZcYRGJyEeOofJ87FrsAbw" type="Parent"/>
-              <element xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Cliente?"/>
+              <element xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Solicitante?"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AZbxMWJyEeOofJ87FrsAbw" x="792" y="5016"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_jJf54GP-EeO09LU54kdLAA" element="_HH_-AGP-EeO09LU54kdLAA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
@@ -3613,7 +3613,7 @@
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_lMByU2P-EeO09LU54kdLAA" type="Name"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lMByUWP-EeO09LU54kdLAA" y="-186"/>
               </children>
-              <children xmi:type="notation:DecorationNode" xmi:id="_lMByVGP-EeO09LU54kdLAA" type="ToMultiplicityLabel" element="_lLpX0mP-EeO09LU54kdLAA">
+              <children xmi:type="notation:DecorationNode" xmi:id="_lMByVGP-EeO09LU54kdLAA" visible="false" type="ToMultiplicityLabel" element="_lLpX0mP-EeO09LU54kdLAA">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_lMByVmP-EeO09LU54kdLAA" type="ToMultiplicity"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_lMByVWP-EeO09LU54kdLAA" y="396"/>
               </children>
@@ -4479,28 +4479,28 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_g2wZYWQ5EeO09LU54kdLAA" covered="_1T8y4GJjEeOofJ87FrsAbw"/>
           <message xmi:id="_JwZ2wGQWEeO09LU54kdLAA" name="Selecciona la opción &quot;Registrar Solicitud de Nueva Conexión&quot;" receiveEvent="_JwZ2wmQWEeO09LU54kdLAA" sendEvent="_JwZ2wWQWEeO09LU54kdLAA" connector="_KFbWkGKMEeOofJ87FrsAbw"/>
           <message xmi:id="_PHYigGQWEeO09LU54kdLAA" name="Invoca" receiveEvent="_PHYigmQWEeO09LU54kdLAA" sendEvent="_PHYigWQWEeO09LU54kdLAA" connector="_o3k3AEayEeOpRIKXVl9ytw"/>
-          <message xmi:id="_VBGu8GQWEeO09LU54kdLAA" name="Muestra Interfaz" receiveEvent="_VBH9EGQWEeO09LU54kdLAA" sendEvent="_VBHWAGQWEeO09LU54kdLAA" connector="__Ds68EayEeOpRIKXVl9ytw"/>
-          <message xmi:id="_cByjcGQWEeO09LU54kdLAA" name="Escoge Opción &quot;Persona Natural&quot;" receiveEvent="_cBzKgGQWEeO09LU54kdLAA" sendEvent="_cByjcWQWEeO09LU54kdLAA" connector="_KbK9EGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_d_-ucGQWEeO09LU54kdLAA" name="Lista Documentos a Adjuntar" receiveEvent="_d__VgWQWEeO09LU54kdLAA" sendEvent="_d__VgGQWEeO09LU54kdLAA" connector="__Ds68EayEeOpRIKXVl9ytw"/>
-          <message xmi:id="_n3m64GQWEeO09LU54kdLAA" name="Selecciona &quot;Continuar&quot;" receiveEvent="_n3oJAGQWEeO09LU54kdLAA" sendEvent="_n3nh8GQWEeO09LU54kdLAA" connector="_KbK9EGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_Vri-0GQxEeO09LU54kdLAA" name="Cierra Interfaz" receiveEvent="_Vrjl4WQxEeO09LU54kdLAA" sendEvent="_Vrjl4GQxEeO09LU54kdLAA" connector="__Ds68EayEeOpRIKXVl9ytw"/>
+          <message xmi:id="_VBGu8GQWEeO09LU54kdLAA" name="Mostrar Interfaz" receiveEvent="_VBH9EGQWEeO09LU54kdLAA" sendEvent="_VBHWAGQWEeO09LU54kdLAA" connector="__Ds68EayEeOpRIKXVl9ytw"/>
+          <message xmi:id="_cByjcGQWEeO09LU54kdLAA" name="Escoger Opción &quot;Persona Natural&quot;" receiveEvent="_cBzKgGQWEeO09LU54kdLAA" sendEvent="_cByjcWQWEeO09LU54kdLAA" connector="_KbK9EGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_d_-ucGQWEeO09LU54kdLAA" name="Listar Documentos a Adjuntar" receiveEvent="_d__VgWQWEeO09LU54kdLAA" sendEvent="_d__VgGQWEeO09LU54kdLAA" connector="__Ds68EayEeOpRIKXVl9ytw"/>
+          <message xmi:id="_n3m64GQWEeO09LU54kdLAA" name="Seleccionar &quot;Continuar&quot;" receiveEvent="_n3oJAGQWEeO09LU54kdLAA" sendEvent="_n3nh8GQWEeO09LU54kdLAA" connector="_KbK9EGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_Vri-0GQxEeO09LU54kdLAA" name="Cerrar Interfaz" receiveEvent="_Vrjl4WQxEeO09LU54kdLAA" sendEvent="_Vrjl4GQxEeO09LU54kdLAA" connector="__Ds68EayEeOpRIKXVl9ytw"/>
           <message xmi:id="_YMOL0GQxEeO09LU54kdLAA" name="Muestra interfaz" receiveEvent="_YMPZ8GQxEeO09LU54kdLAA" sendEvent="_YMOy4GQxEeO09LU54kdLAA" connector="_qjsqcGJlEeOofJ87FrsAbw"/>
-          <message xmi:id="_bdkn0GQxEeO09LU54kdLAA" name="Selecciona &quot;Buscar Dirección&quot;" receiveEvent="_bdlO4WQxEeO09LU54kdLAA" sendEvent="_bdlO4GQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_bdkn0GQxEeO09LU54kdLAA" name="Seleccionar &quot;Buscar Dirección&quot;" receiveEvent="_bdlO4WQxEeO09LU54kdLAA" sendEvent="_bdlO4GQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
           <message xmi:id="_fwJ3UGQxEeO09LU54kdLAA" name="Muestra Dirección de Predio" receiveEvent="_fwKeYGQxEeO09LU54kdLAA" sendEvent="_fwJ3UWQxEeO09LU54kdLAA" connector="_qjsqcGJlEeOofJ87FrsAbw"/>
-          <message xmi:id="_iAlB0GQxEeO09LU54kdLAA" name="Ingresa Número Municipal" receiveEvent="_iAlo4WQxEeO09LU54kdLAA" sendEvent="_iAlo4GQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_k83z0GQxEeO09LU54kdLAA" name="Ingresa Manzana de Predio" receiveEvent="_k84a4WQxEeO09LU54kdLAA" sendEvent="_k84a4GQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_nZC7UGQxEeO09LU54kdLAA" name="Ingresa Lote de Predio" receiveEvent="_nZDiYGQxEeO09LU54kdLAA" sendEvent="_nZC7UWQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_pbIH0GQxEeO09LU54kdLAA" name="Ingresa Referencia de Predio" receiveEvent="_pbIu4WQxEeO09LU54kdLAA" sendEvent="_pbIu4GQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_szGwQGQxEeO09LU54kdLAA" name="Selecciona estado de Predio" receiveEvent="_szH-YGQxEeO09LU54kdLAA" sendEvent="_szHXUGQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_xBgDUGQxEeO09LU54kdLAA" name="Selecciona Diametro de Conexión" receiveEvent="_xBgqYGQxEeO09LU54kdLAA" sendEvent="_xBgDUWQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_iAlB0GQxEeO09LU54kdLAA" name="Ingresar Número Municipal" receiveEvent="_iAlo4WQxEeO09LU54kdLAA" sendEvent="_iAlo4GQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_k83z0GQxEeO09LU54kdLAA" name="Ingresar Manzana de Predio" receiveEvent="_k84a4WQxEeO09LU54kdLAA" sendEvent="_k84a4GQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_nZC7UGQxEeO09LU54kdLAA" name="Ingresar Lote de Predio" receiveEvent="_nZDiYGQxEeO09LU54kdLAA" sendEvent="_nZC7UWQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_pbIH0GQxEeO09LU54kdLAA" name="Ingresar Referencia de Predio" receiveEvent="_pbIu4WQxEeO09LU54kdLAA" sendEvent="_pbIu4GQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_szGwQGQxEeO09LU54kdLAA" name="Seleccionar estado de Predio" receiveEvent="_szH-YGQxEeO09LU54kdLAA" sendEvent="_szHXUGQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_xBgDUGQxEeO09LU54kdLAA" name="Seleccionar Diametro de Conexión" receiveEvent="_xBgqYGQxEeO09LU54kdLAA" sendEvent="_xBgDUWQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
           <message xmi:id="_-kQdsGQxEeO09LU54kdLAA" name="Selecciona COntinuar" receiveEvent="_-kRr0GQxEeO09LU54kdLAA" sendEvent="_-kREwGQxEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_Bgx5MGQyEeO09LU54kdLAA" name="Habilita campos de Documentos" receiveEvent="_BgzHUGQyEeO09LU54kdLAA" sendEvent="_BgygQGQyEeO09LU54kdLAA" connector="_qjsqcGJlEeOofJ87FrsAbw"/>
-          <message xmi:id="_HallMGQyEeO09LU54kdLAA" name="Selecciona &quot;Seleccionar Archivo&quot;" receiveEvent="_HamMQWQyEeO09LU54kdLAA" sendEvent="_HamMQGQyEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_Bgx5MGQyEeO09LU54kdLAA" name="Habilitar campos de Documentos" receiveEvent="_BgzHUGQyEeO09LU54kdLAA" sendEvent="_BgygQGQyEeO09LU54kdLAA" connector="_qjsqcGJlEeOofJ87FrsAbw"/>
+          <message xmi:id="_HallMGQyEeO09LU54kdLAA" name="Seleccionar &quot;Seleccionar Archivo&quot;" receiveEvent="_HamMQWQyEeO09LU54kdLAA" sendEvent="_HamMQGQyEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
           <message xmi:id="_JH_iMGQyEeO09LU54kdLAA" name="Adjunta Archivo" receiveEvent="_JIAwUGQyEeO09LU54kdLAA" sendEvent="_JIAJQGQyEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
           <message xmi:id="_xHaBkGQyEeO09LU54kdLAA" name="Selecciona Continuar" receiveEvent="_xHaooGQyEeO09LU54kdLAA" sendEvent="_xHaBkWQyEeO09LU54kdLAA" connector="_Kx-6kGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_8g7ekGQyEeO09LU54kdLAA" name="Guarda Información predio y documentos" receiveEvent="_8g8FoWQyEeO09LU54kdLAA" sendEvent="_8g8FoGQyEeO09LU54kdLAA" connector="_kvQcEGJkEeOofJ87FrsAbw"/>
-          <message xmi:id="_HJs0EGQzEeO09LU54kdLAA" name="Cierra Interfaz" receiveEvent="_HJtbIGQzEeO09LU54kdLAA" sendEvent="_HJs0EWQzEeO09LU54kdLAA" connector="_qjsqcGJlEeOofJ87FrsAbw"/>
-          <message xmi:id="_JTGJgGQzEeO09LU54kdLAA" name="Muestra interfaz" receiveEvent="_JTHXoGQzEeO09LU54kdLAA" sendEvent="_JTGwkGQzEeO09LU54kdLAA" connector="_sp464GJlEeOofJ87FrsAbw"/>
+          <message xmi:id="_8g7ekGQyEeO09LU54kdLAA" name="Guardar Información predio y documentos" receiveEvent="_8g8FoWQyEeO09LU54kdLAA" sendEvent="_8g8FoGQyEeO09LU54kdLAA" connector="_kvQcEGJkEeOofJ87FrsAbw"/>
+          <message xmi:id="_HJs0EGQzEeO09LU54kdLAA" name="Cerrar Interfaz" receiveEvent="_HJtbIGQzEeO09LU54kdLAA" sendEvent="_HJs0EWQzEeO09LU54kdLAA" connector="_qjsqcGJlEeOofJ87FrsAbw"/>
+          <message xmi:id="_JTGJgGQzEeO09LU54kdLAA" name="Mostrar interfaz" receiveEvent="_JTHXoGQzEeO09LU54kdLAA" sendEvent="_JTGwkGQzEeO09LU54kdLAA" connector="_sp464GJlEeOofJ87FrsAbw"/>
           <message xmi:id="_Rbf0AGQzEeO09LU54kdLAA" name="Habilita Campos de Persona Natural" receiveEvent="_RbgbEWQzEeO09LU54kdLAA" sendEvent="_RbgbEGQzEeO09LU54kdLAA" connector="_sp464GJlEeOofJ87FrsAbw"/>
           <message xmi:id="_T30sgGQzEeO09LU54kdLAA" name="Ingresa Nombres y Apellidos" receiveEvent="_T31TkWQzEeO09LU54kdLAA" sendEvent="_T31TkGQzEeO09LU54kdLAA" connector="_LQusEGKMEeOofJ87FrsAbw"/>
           <message xmi:id="_dYtz8GQzEeO09LU54kdLAA" name="Selecciona Tipo de Documento de Identidad" receiveEvent="_dYubAWQzEeO09LU54kdLAA" sendEvent="_dYubAGQzEeO09LU54kdLAA" connector="_LQusEGKMEeOofJ87FrsAbw"/>
@@ -4509,18 +4509,18 @@
           <message xmi:id="_ob4mcGQzEeO09LU54kdLAA" name="Adjunta DNI contacto" receiveEvent="_ob5NgWQzEeO09LU54kdLAA" sendEvent="_ob5NgGQzEeO09LU54kdLAA" connector="_LQusEGKMEeOofJ87FrsAbw"/>
           <message xmi:id="_u2VhYGQzEeO09LU54kdLAA" name="Ingresa Teléfono de Contacto" receiveEvent="_u2WvgGQzEeO09LU54kdLAA" sendEvent="_u2WIcGQzEeO09LU54kdLAA" connector="_LQusEGKMEeOofJ87FrsAbw"/>
           <message xmi:id="_yk1MYGQzEeO09LU54kdLAA" name="Ingresa Celular Contacto" receiveEvent="_yk1zcGQzEeO09LU54kdLAA" sendEvent="_yk1MYWQzEeO09LU54kdLAA" connector="_LQusEGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_1LdQYGQzEeO09LU54kdLAA" name="Ingresa Email Conctacto" receiveEvent="_1Ld3cGQzEeO09LU54kdLAA" sendEvent="_1LdQYWQzEeO09LU54kdLAA" connector="_LQusEGKMEeOofJ87FrsAbw"/>
+          <message xmi:id="_1LdQYGQzEeO09LU54kdLAA" name="Ingresar Email Conctacto" receiveEvent="_1Ld3cGQzEeO09LU54kdLAA" sendEvent="_1LdQYWQzEeO09LU54kdLAA" connector="_LQusEGKMEeOofJ87FrsAbw"/>
           <message xmi:id="_9CO_YGQzEeO09LU54kdLAA" name="Selecciona &quot;Continuar&quot;" receiveEvent="_9CPmcWQzEeO09LU54kdLAA" sendEvent="_9CPmcGQzEeO09LU54kdLAA" connector="_LQusEGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_Ajm0YGQ0EeO09LU54kdLAA" name="Guarda Información de Persona y Contacto" receiveEvent="_AjnbcGQ0EeO09LU54kdLAA" sendEvent="_Ajm0YWQ0EeO09LU54kdLAA" connector="_lHD4EGJkEeOofJ87FrsAbw"/>
-          <message xmi:id="_L9WT0GQ0EeO09LU54kdLAA" name="Cierra Interfaz" receiveEvent="_L9W64GQ0EeO09LU54kdLAA" sendEvent="_L9WT0WQ0EeO09LU54kdLAA" connector="_sp464GJlEeOofJ87FrsAbw"/>
-          <message xmi:id="_RXGmwGQ0EeO09LU54kdLAA" name="Calcula Presupuesto" receiveEvent="_RXH04GQ0EeO09LU54kdLAA" sendEvent="_RXHN0GQ0EeO09LU54kdLAA" connector="_x3nUIGP-EeO09LU54kdLAA"/>
-          <message xmi:id="_1PAzUGQ2EeO09LU54kdLAA" name="Muestra Interfaz" receiveEvent="_1PBaYGQ2EeO09LU54kdLAA" sendEvent="_1PAzUWQ2EeO09LU54kdLAA" connector="_uhv0YGJlEeOofJ87FrsAbw"/>
-          <message xmi:id="_3SixUGQ2EeO09LU54kdLAA" name="Muestra Presupuesto" receiveEvent="_3SjYYGQ2EeO09LU54kdLAA" sendEvent="_3SixUWQ2EeO09LU54kdLAA" connector="_uhv0YGJlEeOofJ87FrsAbw"/>
+          <message xmi:id="_Ajm0YGQ0EeO09LU54kdLAA" name="Guardar Información de Persona y Contacto" receiveEvent="_AjnbcGQ0EeO09LU54kdLAA" sendEvent="_Ajm0YWQ0EeO09LU54kdLAA" connector="_lHD4EGJkEeOofJ87FrsAbw"/>
+          <message xmi:id="_L9WT0GQ0EeO09LU54kdLAA" name="Cerrar Interfaz" receiveEvent="_L9W64GQ0EeO09LU54kdLAA" sendEvent="_L9WT0WQ0EeO09LU54kdLAA" connector="_sp464GJlEeOofJ87FrsAbw"/>
+          <message xmi:id="_RXGmwGQ0EeO09LU54kdLAA" name="Calcular Presupuesto" receiveEvent="_RXH04GQ0EeO09LU54kdLAA" sendEvent="_RXHN0GQ0EeO09LU54kdLAA" connector="_x3nUIGP-EeO09LU54kdLAA"/>
+          <message xmi:id="_1PAzUGQ2EeO09LU54kdLAA" name="Mostrar Interfaz" receiveEvent="_1PBaYGQ2EeO09LU54kdLAA" sendEvent="_1PAzUWQ2EeO09LU54kdLAA" connector="_uhv0YGJlEeOofJ87FrsAbw"/>
+          <message xmi:id="_3SixUGQ2EeO09LU54kdLAA" name="Mostrar Presupuesto" receiveEvent="_3SjYYGQ2EeO09LU54kdLAA" sendEvent="_3SixUWQ2EeO09LU54kdLAA" connector="_uhv0YGJlEeOofJ87FrsAbw"/>
           <message xmi:id="_fNm8MGQ3EeO09LU54kdLAA" name="Selecciona &quot;Registrar Solicitud&quot;" receiveEvent="_fNnjQGQ3EeO09LU54kdLAA" sendEvent="_fNm8MWQ3EeO09LU54kdLAA" connector="_LlolEGKMEeOofJ87FrsAbw"/>
-          <message xmi:id="_jKclMGQ3EeO09LU54kdLAA" name="Ingresa Datos al sistema" receiveEvent="_jKdMQWQ3EeO09LU54kdLAA" sendEvent="_jKdMQGQ3EeO09LU54kdLAA" connector="_lpYiAGJkEeOofJ87FrsAbw"/>
-          <message xmi:id="_lwASMGQ3EeO09LU54kdLAA" name="Obtiene última Solicitud(+1)" receiveEvent="_lwA5QGQ3EeO09LU54kdLAA" sendEvent="_lwASMWQ3EeO09LU54kdLAA" connector="_qlDFcEayEeOpRIKXVl9ytw"/>
-          <message xmi:id="_vRlWIGQ3EeO09LU54kdLAA" name="Registra Datos de la solicitud" receiveEvent="_vRl9MGQ3EeO09LU54kdLAA" sendEvent="_vRlWIWQ3EeO09LU54kdLAA" connector="_qlDFcEayEeOpRIKXVl9ytw"/>
-          <message xmi:id="_6ba74GQ4EeO09LU54kdLAA" name="Muestra MSG" receiveEvent="_6bcKAGQ4EeO09LU54kdLAA" sendEvent="_6bbi8GQ4EeO09LU54kdLAA" connector="_uhv0YGJlEeOofJ87FrsAbw"/>
+          <message xmi:id="_jKclMGQ3EeO09LU54kdLAA" name="Ingresar Datos al sistema" receiveEvent="_jKdMQWQ3EeO09LU54kdLAA" sendEvent="_jKdMQGQ3EeO09LU54kdLAA" connector="_lpYiAGJkEeOofJ87FrsAbw"/>
+          <message xmi:id="_lwASMGQ3EeO09LU54kdLAA" name="Generar última Solicitud(+1)" receiveEvent="_lwA5QGQ3EeO09LU54kdLAA" sendEvent="_lwASMWQ3EeO09LU54kdLAA" connector="_qlDFcEayEeOpRIKXVl9ytw"/>
+          <message xmi:id="_vRlWIGQ3EeO09LU54kdLAA" name="Registrar Datos de la solicitud" receiveEvent="_vRl9MGQ3EeO09LU54kdLAA" sendEvent="_vRlWIWQ3EeO09LU54kdLAA" connector="_qlDFcEayEeOpRIKXVl9ytw"/>
+          <message xmi:id="_6ba74GQ4EeO09LU54kdLAA" name="Mostrar MSG" receiveEvent="_6bcKAGQ4EeO09LU54kdLAA" sendEvent="_6bbi8GQ4EeO09LU54kdLAA" connector="_uhv0YGJlEeOofJ87FrsAbw"/>
           <message xmi:id="_g2vyUGQ5EeO09LU54kdLAA" name="Cierra Interfaz y FInaliza Caso de USO" receiveEvent="_g2vyUmQ5EeO09LU54kdLAA" sendEvent="_g2vyUWQ5EeO09LU54kdLAA" connector="_LlolEGKMEeOofJ87FrsAbw"/>
         </ownedBehavior>
         <ownedAttribute xmi:id="_fCAK8EawEeOpRIKXVl9ytw" name="cC_Contrato" type="_LFJs4EauEeOpRIKXVl9ytw"/>
@@ -4545,13 +4545,13 @@
         <ownedAttribute xmi:id="_07J4YWJjEeOofJ87FrsAbw" name="cI_RegistrarSolicitudCliente" type="_6RqKYGJgEeOofJ87FrsAbw"/>
         <ownedAttribute xmi:id="_1T9Z8GJjEeOofJ87FrsAbw" name="cI_RegistrarSolicitudCierre" type="_A8MvwGJhEeOofJ87FrsAbw"/>
         <ownedAttribute xmi:id="_zLS78GJxEeOofJ87FrsAbw" name="cliente">
-          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Cliente?"/>
+          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Solicitante?"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_wUn3YGP-EeO09LU54kdLAA" name="presupuesto" type="_HH_-AGP-EeO09LU54kdLAA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_ynsfgEatEeOpRIKXVl9ytw" name="CI_Index">
         <ownedAttribute xmi:id="_Bvm58GJyEeOofJ87FrsAbw" name="cliente" visibility="private" association="_BvjPkGJyEeOofJ87FrsAbw">
-          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Cliente?"/>
+          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Solicitante?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BvnhAWJyEeOofJ87FrsAbw" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BvnhAGJyEeOofJ87FrsAbw" value="1"/>
         </ownedAttribute>
@@ -4602,7 +4602,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bfsXQEavEeOpRIKXVl9ytw" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_CE830GJyEeOofJ87FrsAbw" name="cliente" visibility="private" association="_CE50gGJyEeOofJ87FrsAbw">
-          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Cliente?"/>
+          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Solicitante?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CE9e4WJyEeOofJ87FrsAbw" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CE9e4GJyEeOofJ87FrsAbw" value="1"/>
         </ownedAttribute>
@@ -4716,7 +4716,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rr6XEGJiEeOofJ87FrsAbw" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_CdPcAGJyEeOofJ87FrsAbw" name="cliente" visibility="private" association="_CdLKkGJyEeOofJ87FrsAbw">
-          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Cliente?"/>
+          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Solicitante?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CdQDEWJyEeOofJ87FrsAbw" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CdQDEGJyEeOofJ87FrsAbw" value="1"/>
         </ownedAttribute>
@@ -4727,7 +4727,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sFSgYGJiEeOofJ87FrsAbw" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_CycP8GJyEeOofJ87FrsAbw" name="cliente" visibility="private" association="_CyYlkGJyEeOofJ87FrsAbw">
-          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Cliente?"/>
+          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Solicitante?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cyc3AWJyEeOofJ87FrsAbw" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cyc3AGJyEeOofJ87FrsAbw" value="1"/>
         </ownedAttribute>
@@ -4738,7 +4738,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tTA3wGJiEeOofJ87FrsAbw" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_EVJ_4GJyEeOofJ87FrsAbw" name="cliente" visibility="private" association="_EVG8kGJyEeOofJ87FrsAbw">
-          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Cliente?"/>
+          <type xmi:type="uml:Actor" href="Modelo%20de%20Caso%20de%20Uso.emx#_J1IBYEWbEeODn71C-Ux1oA?Modelo%20de%20Caso%20de%20Uso/Actores/Solicitante?"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EVLOAGJyEeOofJ87FrsAbw" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EVKm8GJyEeOofJ87FrsAbw" value="1"/>
         </ownedAttribute>
@@ -5258,7 +5258,7 @@
                       <details xmi:id="_IC5IsX7IEeO258w4hz2QqA" key="LifelineLabelStyle" value="Type Name Only"/>
                     </eAnnotations>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_IC5vwH7IEeO258w4hz2QqA" type="Name"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IC4hoX7IEeO258w4hz2QqA" x="9213" y="8500"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IC4hoX7IEeO258w4hz2QqA" x="9239" y="10612"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_ItngsH7IEeO258w4hz2QqA" element="_ItioMH7IEeO258w4hz2QqA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_ItoHwH7IEeO258w4hz2QqA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -5298,11 +5298,11 @@
                     <styles xmi:type="notation:TextStyle" xmi:id="_-pvrMX7LEeO258w4hz2QqA"/>
                     <styles xmi:type="notation:LineTypeStyle" xmi:id="_-pvrMn7LEeO258w4hz2QqA"/>
                     <element xsi:nil="true"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-pvrM37LEeO258w4hz2QqA" x="9028" y="9556" width="5606"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-pvrM37LEeO258w4hz2QqA" x="9107" y="11536" width="5606"/>
                   </children>
                 </children>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_TqaRxH5BEeO3jbGWylpxrg" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqaRxX5BEeO3jbGWylpxrg" x="793" y="793" width="23486" height="12254"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TqaRxX5BEeO3jbGWylpxrg" x="793" y="793" width="23486" height="14106"/>
               </children>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mItswH7IEeO258w4hz2QqA" element="_mIm_EH7IEeO258w4hz2QqA" source="_JdMaYH5CEeO3jbGWylpxrg" target="_ItngsH7IEeO258w4hz2QqA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
                 <children xmi:type="notation:DecorationNode" xmi:id="_FuBtoH7JEeO258w4hz2QqA" type="COMM_MESSAGE" element="_FtQRkH7JEeO258w4hz2QqA">
@@ -5353,27 +5353,27 @@
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_oHCaoH7IEeO258w4hz2QqA" element="_oG_-YH7IEeO258w4hz2QqA" source="_JdMaYH5CEeO3jbGWylpxrg" target="_IC4hoH7IEeO258w4hz2QqA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
                 <children xmi:type="notation:DecorationNode" xmi:id="_AhUtUH7LEeO258w4hz2QqA" type="COMM_MESSAGE" element="_AhMKcH7LEeO258w4hz2QqA">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_AhUtUn7LEeO258w4hz2QqA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_AhUtUX7LEeO258w4hz2QqA" x="-1279" y="-115"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_AhUtUX7LEeO258w4hz2QqA" x="-27" y="1512"/>
                 </children>
                 <children xmi:type="notation:DecorationNode" xmi:id="_DvIGEH7LEeO258w4hz2QqA" type="COMM_MESSAGE" element="_Du_jMH7LEeO258w4hz2QqA">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_DvItIH7LEeO258w4hz2QqA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_DvIGEX7LEeO258w4hz2QqA" x="-1253" y="-379"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_DvIGEX7LEeO258w4hz2QqA" x="659" y="984"/>
                 </children>
                 <children xmi:type="notation:DecorationNode" xmi:id="_HOdTsH7LEeO258w4hz2QqA" type="COMM_MESSAGE" element="_HOUw0H7LEeO258w4hz2QqA">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_HOeh0H7LEeO258w4hz2QqA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_HOdTsX7LEeO258w4hz2QqA" x="-1529" y="-643"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_HOdTsX7LEeO258w4hz2QqA" x="119" y="456"/>
                 </children>
                 <children xmi:type="notation:DecorationNode" xmi:id="_LI5I8H7LEeO258w4hz2QqA" type="COMM_MESSAGE" element="_LIxNIH7LEeO258w4hz2QqA">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_LI5wAH7LEeO258w4hz2QqA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_LI5I8X7LEeO258w4hz2QqA" x="-1094" y="-907"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_LI5I8X7LEeO258w4hz2QqA" x="-1281" y="-1128"/>
                 </children>
                 <children xmi:type="notation:DecorationNode" xmi:id="_NGhd0H7MEeO258w4hz2QqA" type="COMM_MESSAGE" element="_NGYT4H7MEeO258w4hz2QqA">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_NGiE4H7MEeO258w4hz2QqA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_NGhd0X7MEeO258w4hz2QqA" x="-949" y="-1171"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_NGhd0X7MEeO258w4hz2QqA" x="-1598" y="-2316"/>
                 </children>
                 <children xmi:type="notation:DecorationNode" xmi:id="_R3aZ8H7MEeO258w4hz2QqA" type="COMM_MESSAGE" element="_R3R3EH7MEeO258w4hz2QqA">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_R3bBAX7MEeO258w4hz2QqA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_R3bBAH7MEeO258w4hz2QqA" x="-802" y="-1435"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_R3bBAH7MEeO258w4hz2QqA" x="-1583" y="-3900"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oHCaoX7IEeO258w4hz2QqA" points="[-371, 0, -8919, -2824]$[-371, 2870, -8919, 46]$[6248, 2870, -2300, 46]"/>
                 <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oHFd8H7IEeO258w4hz2QqA" id="(0.6560563982055116,1.0)"/>
@@ -5615,32 +5615,32 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_R3TFMH7MEeO258w4hz2QqA" covered="_IC0QMH7IEeO258w4hz2QqA" message="_R3R3EH7MEeO258w4hz2QqA"/>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_R3TFMX7MEeO258w4hz2QqA" covered="_IC0QMH7IEeO258w4hz2QqA" start="_R3TFMH7MEeO258w4hz2QqA" finish="_R3TsQH7MEeO258w4hz2QqA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_R3TsQH7MEeO258w4hz2QqA" covered="_IC0QMH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_FtQRkH7JEeO258w4hz2QqA" name="Selecciona Generar Contrato" receiveEvent="_FtRfsH7JEeO258w4hz2QqA" sendEvent="_FtQ4oH7JEeO258w4hz2QqA" connector="_mIm_EH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_FtQRkH7JEeO258w4hz2QqA" name="Seleccionar Generar Contrato" receiveEvent="_FtRfsH7JEeO258w4hz2QqA" sendEvent="_FtQ4oH7JEeO258w4hz2QqA" connector="_mIm_EH7IEeO258w4hz2QqA"/>
           <message xmi:id="_I_EnoH7JEeO258w4hz2QqA" name="invoca" receiveEvent="_I_ISAH7JEeO258w4hz2QqA" sendEvent="_I_Hq8H7JEeO258w4hz2QqA" connector="_mmU10H7IEeO258w4hz2QqA"/>
           <message xmi:id="_PBZWcH7JEeO258w4hz2QqA" name="Muestra Interfaz" receiveEvent="_PBakkH7JEeO258w4hz2QqA" sendEvent="_PBZ9gH7JEeO258w4hz2QqA" connector="_wX3oYH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_bO6cMH7JEeO258w4hz2QqA" name="Obtiene lista de solicitudes" receiveEvent="_bO7DQX7JEeO258w4hz2QqA" sendEvent="_bO7DQH7JEeO258w4hz2QqA" connector="_nl0j8H7IEeO258w4hz2QqA"/>
+          <message xmi:id="_bO6cMH7JEeO258w4hz2QqA" name="Obtener lista de solicitudes" receiveEvent="_bO7DQX7JEeO258w4hz2QqA" sendEvent="_bO7DQH7JEeO258w4hz2QqA" connector="_nl0j8H7IEeO258w4hz2QqA"/>
           <message xmi:id="_evow8H7JEeO258w4hz2QqA" name="Consulta solicitudes(estado)" receiveEvent="_evp_EH7JEeO258w4hz2QqA" sendEvent="_evpYAH7JEeO258w4hz2QqA" connector="_1567sH7IEeO258w4hz2QqA"/>
           <message xmi:id="_jxQQsH7JEeO258w4hz2QqA" name="Muestra lista de solicitudes" receiveEvent="_jxRe0H7JEeO258w4hz2QqA" sendEvent="_jxQ3wH7JEeO258w4hz2QqA" connector="_wX3oYH7IEeO258w4hz2QqA"/>
           <message xmi:id="_qXDgAH7JEeO258w4hz2QqA" name="Muestra fecha y hora" receiveEvent="_qXEHEX7JEeO258w4hz2QqA" sendEvent="_qXEHEH7JEeO258w4hz2QqA" connector="_wX3oYH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_yZNYkH7JEeO258w4hz2QqA" name="Selecciona Solicitud" receiveEvent="_yZN_oH7JEeO258w4hz2QqA" sendEvent="_yZNYkX7JEeO258w4hz2QqA" connector="_m_u0UH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_G7P5QH7KEeO258w4hz2QqA" name="Obtiene Datos de Solicitud(cod)" receiveEvent="_G7RHYH7KEeO258w4hz2QqA" sendEvent="_G7QgUH7KEeO258w4hz2QqA" connector="_nl0j8H7IEeO258w4hz2QqA"/>
+          <message xmi:id="_yZNYkH7JEeO258w4hz2QqA" name="Seleccionar Solicitud" receiveEvent="_yZN_oH7JEeO258w4hz2QqA" sendEvent="_yZNYkX7JEeO258w4hz2QqA" connector="_m_u0UH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_G7P5QH7KEeO258w4hz2QqA" name="Obtener Datos de Solicitud(cod)" receiveEvent="_G7RHYH7KEeO258w4hz2QqA" sendEvent="_G7QgUH7KEeO258w4hz2QqA" connector="_nl0j8H7IEeO258w4hz2QqA"/>
           <message xmi:id="_KQIxcH7KEeO258w4hz2QqA" name="Consulta solicitud(cod)" receiveEvent="_KQJYgX7KEeO258w4hz2QqA" sendEvent="_KQJYgH7KEeO258w4hz2QqA" connector="_1567sH7IEeO258w4hz2QqA"/>
           <message xmi:id="_PTcTQH7KEeO258w4hz2QqA" name="Muestra Datos de Solicitud" receiveEvent="_PTc6UX7KEeO258w4hz2QqA" sendEvent="_PTc6UH7KEeO258w4hz2QqA" connector="_wX3oYH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_WME_AH7KEeO258w4hz2QqA" name="Selecciona Continuar" receiveEvent="_WMFmEX7KEeO258w4hz2QqA" sendEvent="_WMFmEH7KEeO258w4hz2QqA" connector="_m_u0UH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_rVkhQH7KEeO258w4hz2QqA" name="Cierra Interfaz" receiveEvent="_rVlvYH7KEeO258w4hz2QqA" sendEvent="_rVlIUH7KEeO258w4hz2QqA" connector="_wX3oYH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_yMBbsH7KEeO258w4hz2QqA" name="Invoca interfaz Datos de Pago" receiveEvent="_yMCCwX7KEeO258w4hz2QqA" sendEvent="_yMCCwH7KEeO258w4hz2QqA" connector="_nl0j8H7IEeO258w4hz2QqA"/>
-          <message xmi:id="_2M3a8H7KEeO258w4hz2QqA" name="Muestra Interfaz" receiveEvent="_2M4CAX7KEeO258w4hz2QqA" sendEvent="_2M4CAH7KEeO258w4hz2QqA" connector="_ypY_EH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_AhMKcH7LEeO258w4hz2QqA" name="Ingresa Importe a Pagar" receiveEvent="_AhNYkH7LEeO258w4hz2QqA" sendEvent="_AhMxgH7LEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_Du_jMH7LEeO258w4hz2QqA" name="Selecciona Tipo de Pago" receiveEvent="_DvAKQX7LEeO258w4hz2QqA" sendEvent="_DvAKQH7LEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_HOUw0H7LEeO258w4hz2QqA" name="Selecciona Numero de Cuotas" receiveEvent="_HOV-8H7LEeO258w4hz2QqA" sendEvent="_HOVX4H7LEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_LIxNIH7LEeO258w4hz2QqA" name="Selecciona Generar Contrato" receiveEvent="_LIx0MX7LEeO258w4hz2QqA" sendEvent="_LIx0MH7LEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_i4cHcH7LEeO258w4hz2QqA" name="Obtiene codigo de Contrato" receiveEvent="_i4cugX7LEeO258w4hz2QqA" sendEvent="_i4cugH7LEeO258w4hz2QqA" connector="_olc08H7IEeO258w4hz2QqA"/>
+          <message xmi:id="_WME_AH7KEeO258w4hz2QqA" name="Seleccionar Continuar" receiveEvent="_WMFmEX7KEeO258w4hz2QqA" sendEvent="_WMFmEH7KEeO258w4hz2QqA" connector="_m_u0UH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_rVkhQH7KEeO258w4hz2QqA" name="Cerrar Interfaz" receiveEvent="_rVlvYH7KEeO258w4hz2QqA" sendEvent="_rVlIUH7KEeO258w4hz2QqA" connector="_wX3oYH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_yMBbsH7KEeO258w4hz2QqA" name="Invocar interfaz Datos de Pago" receiveEvent="_yMCCwX7KEeO258w4hz2QqA" sendEvent="_yMCCwH7KEeO258w4hz2QqA" connector="_nl0j8H7IEeO258w4hz2QqA"/>
+          <message xmi:id="_2M3a8H7KEeO258w4hz2QqA" name="Mostrar Interfaz" receiveEvent="_2M4CAX7KEeO258w4hz2QqA" sendEvent="_2M4CAH7KEeO258w4hz2QqA" connector="_ypY_EH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_AhMKcH7LEeO258w4hz2QqA" name="Ingresar Importe a Pagar" receiveEvent="_AhNYkH7LEeO258w4hz2QqA" sendEvent="_AhMxgH7LEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_Du_jMH7LEeO258w4hz2QqA" name="Seleccionar Tipo de Pago" receiveEvent="_DvAKQX7LEeO258w4hz2QqA" sendEvent="_DvAKQH7LEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_HOUw0H7LEeO258w4hz2QqA" name="Seleccionar Numero de Cuotas" receiveEvent="_HOV-8H7LEeO258w4hz2QqA" sendEvent="_HOVX4H7LEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_LIxNIH7LEeO258w4hz2QqA" name="Seleccionar Generar Contrato" receiveEvent="_LIx0MX7LEeO258w4hz2QqA" sendEvent="_LIx0MH7LEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_i4cHcH7LEeO258w4hz2QqA" name="Obtener codigo de Contrato" receiveEvent="_i4cugX7LEeO258w4hz2QqA" sendEvent="_i4cugH7LEeO258w4hz2QqA" connector="_olc08H7IEeO258w4hz2QqA"/>
           <message xmi:id="_ow7k0H7LEeO258w4hz2QqA" name="Consulta Codigo de contrato" receiveEvent="_ow8y8H7LEeO258w4hz2QqA" sendEvent="_ow8L4H7LEeO258w4hz2QqA" connector="_1ilZwH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_z2BC4H7LEeO258w4hz2QqA" name="Registra Contrato(cod+1)" receiveEvent="_z2Bp8X7LEeO258w4hz2QqA" sendEvent="_z2Bp8H7LEeO258w4hz2QqA" connector="_olc08H7IEeO258w4hz2QqA"/>
+          <message xmi:id="_z2BC4H7LEeO258w4hz2QqA" name="Registrar Contrato(cod+1)" receiveEvent="_z2Bp8X7LEeO258w4hz2QqA" sendEvent="_z2Bp8H7LEeO258w4hz2QqA" connector="_olc08H7IEeO258w4hz2QqA"/>
           <message xmi:id="_2vqwkH7LEeO258w4hz2QqA" name="Registra Contrato(cod+1)" receiveEvent="_2vrXoX7LEeO258w4hz2QqA" sendEvent="_2vrXoH7LEeO258w4hz2QqA" connector="_1ilZwH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_7YG7UH7LEeO258w4hz2QqA" name="Muestra MSG24" receiveEvent="_7YHiYX7LEeO258w4hz2QqA" sendEvent="_7YHiYH7LEeO258w4hz2QqA" connector="_ypY_EH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_JX2MoH7MEeO258w4hz2QqA" name="Muestra Contrato" receiveEvent="_JX2zsX7MEeO258w4hz2QqA" sendEvent="_JX2zsH7MEeO258w4hz2QqA" connector="_ypY_EH7IEeO258w4hz2QqA"/>
-          <message xmi:id="_NGYT4H7MEeO258w4hz2QqA" name="Selecion Imprimir Contrato" receiveEvent="_NGY68X7MEeO258w4hz2QqA" sendEvent="_NGY68H7MEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_7YG7UH7LEeO258w4hz2QqA" name="Mostrar MSG24" receiveEvent="_7YHiYX7LEeO258w4hz2QqA" sendEvent="_7YHiYH7LEeO258w4hz2QqA" connector="_ypY_EH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_JX2MoH7MEeO258w4hz2QqA" name="Mostrar Contrato" receiveEvent="_JX2zsX7MEeO258w4hz2QqA" sendEvent="_JX2zsH7MEeO258w4hz2QqA" connector="_ypY_EH7IEeO258w4hz2QqA"/>
+          <message xmi:id="_NGYT4H7MEeO258w4hz2QqA" name="Selecionar Imprimir Contrato" receiveEvent="_NGY68X7MEeO258w4hz2QqA" sendEvent="_NGY68H7MEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
           <message xmi:id="_R3R3EH7MEeO258w4hz2QqA" name="Cierra la interfaz y finaliza el caso de uso" receiveEvent="_R3TFMH7MEeO258w4hz2QqA" sendEvent="_R3SeIH7MEeO258w4hz2QqA" connector="_oG_-YH7IEeO258w4hz2QqA"/>
         </ownedBehavior>
         <ownedAttribute xmi:id="_DLjdMH5CEeO3jbGWylpxrg" name="técnico de Contrataciones">
