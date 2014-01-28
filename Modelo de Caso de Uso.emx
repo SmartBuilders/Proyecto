@@ -1484,6 +1484,15 @@
       <memberEnd href="#_CytlIIhjEeO5MpcttPYoeA?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/index.cliente?"/>
       <memberEnd href="Modelo%20de%20Diseño.emx#_CywBYIhjEeO5MpcttPYoeA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Index.jsp/Index.cliente/cajero?"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_fIoNoIhqEeO5MpcttPYoeA" navigableOwnedEnd="_fIpbwIhqEeO5MpcttPYoeA">
+      <ownedEnd xmi:id="_fIpbwIhqEeO5MpcttPYoeA" name="index.cliente" visibility="private" association="_fIoNoIhqEeO5MpcttPYoeA">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Diseño.emx#_Eus5MHW2EeOilPhC335iRA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Index.jsp/Index.cliente?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fIqC0IhqEeO5MpcttPYoeA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fIpbwYhqEeO5MpcttPYoeA" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_fIpbwIhqEeO5MpcttPYoeA?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/index.cliente?"/>
+      <memberEnd href="Modelo%20de%20Diseño.emx#_fIqC0YhqEeO5MpcttPYoeA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Index.jsp/Index.cliente/encargado%20de%20Trámite%20Documentario?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_7rrSsOOrEeKF9bMn8CeBMw" name="Casos de Uso">
     <eAnnotations xmi:id="_7rr5wOOrEeKF9bMn8CeBMw" source="uml2.diagrams" references="_7rsg0OOrEeKF9bMn8CeBMw">
