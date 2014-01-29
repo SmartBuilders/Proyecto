@@ -1493,6 +1493,87 @@
       <memberEnd href="#_fIpbwIhqEeO5MpcttPYoeA?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/index.cliente?"/>
       <memberEnd href="Modelo%20de%20Diseño.emx#_fIqC0YhqEeO5MpcttPYoeA?Modelo%20de%20Diseño/Capas/Capa%20de%20Presentacion/GUI%20Común/Index.jsp/Index.cliente/encargado%20de%20Trámite%20Documentario?"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_VuFLsIifEeOcl93ACPg_RQ" navigableOwnedEnd="_VuFywIifEeOcl93ACPg_RQ">
+      <ownedEnd xmi:id="_VuFywIifEeOcl93ACPg_RQ" name="cI_MenuPrincipal" visibility="private" association="_VuFLsIifEeOcl93ACPg_RQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_W8MIkGX4EeOt36DEbQu3mw?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_MenuPrincipal?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VuGZ0YifEeOcl93ACPg_RQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VuGZ0IifEeOcl93ACPg_RQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_VuFywIifEeOcl93ACPg_RQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_MenuPrincipal?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_VuHn8IifEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_MenuPrincipal/administrador%20del%20Sistema2?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_YDPsQIifEeOcl93ACPg_RQ" navigableOwnedEnd="_YDSIgIifEeOcl93ACPg_RQ">
+      <ownedEnd xmi:id="_YDSIgIifEeOcl93ACPg_RQ" name="cI_Mantener Usuario" visibility="private" association="_YDPsQIifEeOcl93ACPg_RQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_CLsxMIifEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Seguridad/CI_Mantener%20Usuario?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YDSvkYifEeOcl93ACPg_RQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YDSvkIifEeOcl93ACPg_RQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_YDSIgIifEeOcl93ACPg_RQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_Mantener%20Usuario?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_YDTWoIifEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Seguridad/CI_Mantener%20Usuario/administrador%20del%20Sistema?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O2y8EIilEeOcl93ACPg_RQ" navigableOwnedEnd="_O20KMIilEeOcl93ACPg_RQ">
+      <ownedEnd xmi:id="_O20KMIilEeOcl93ACPg_RQ" name="cI_MPrincipal" visibility="private" association="_O2y8EIilEeOcl93ACPg_RQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_XnFLoGeYEeOM4OUDFliVzg?Modelo%20de%20Análisis/Pagos/CI_MPrincipal?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O20KMoilEeOcl93ACPg_RQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O20KMYilEeOcl93ACPg_RQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_O20KMIilEeOcl93ACPg_RQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_MPrincipal?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_O21YUIilEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Pagos/CI_MPrincipal/cajero?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PLKpkIilEeOcl93ACPg_RQ" navigableOwnedEnd="_PLLQoIilEeOcl93ACPg_RQ">
+      <ownedEnd xmi:id="_PLLQoIilEeOcl93ACPg_RQ" name="cI_RegistrarPago" visibility="private" association="_PLKpkIilEeOcl93ACPg_RQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_wCFRsIikEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Pagos/CI_RegistrarPago?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PLL3sYilEeOcl93ACPg_RQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PLL3sIilEeOcl93ACPg_RQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_PLLQoIilEeOcl93ACPg_RQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_RegistrarPago?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_PLMewIilEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Pagos/CI_RegistrarPago/cajero?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TMJO4IipEeOcl93ACPg_RQ" navigableOwnedEnd="_TMPVgIipEeOcl93ACPg_RQ">
+      <ownedEnd xmi:id="_TMPVgIipEeOcl93ACPg_RQ" name="cI_EvaluarSolicitudCambio" visibility="private" association="_TMJO4IipEeOcl93ACPg_RQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_sjYbYGZkEeOgkrTDiVb68A?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_EvaluarSolicitudCambio?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TMP8kIipEeOcl93ACPg_RQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TMPVgYipEeOcl93ACPg_RQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_TMPVgIipEeOcl93ACPg_RQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_EvaluarSolicitudCambio?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_TMQjoIipEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Cambios%20de%20Categoria/CI_EvaluarSolicitudCambio/técnico%20de%20Contrataciones?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TdOX0IipEeOcl93ACPg_RQ" navigableOwnedEnd="_TdO-4IipEeOcl93ACPg_RQ">
+      <ownedEnd xmi:id="_TdO-4IipEeOcl93ACPg_RQ" name="cI_Generar Listado de Servicios Contratados" visibility="private" association="_TdOX0IipEeOcl93ACPg_RQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_ikWkcIioEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Reporte/CI_Generar%20Listado%20de%20Servicios%20Contratados?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TdPl8YipEeOcl93ACPg_RQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TdPl8IipEeOcl93ACPg_RQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_TdO-4IipEeOcl93ACPg_RQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_Generar%20Listado%20de%20Servicios%20Contratados?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_TdQ0EIipEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Reporte/CI_Generar%20Listado%20de%20Servicios%20Contratados/técnico%20de%20Contrataciones?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_tAi5sIisEeOcl93ACPg_RQ" navigableOwnedEnd="_tAkH0IisEeOcl93ACPg_RQ">
+      <ownedEnd xmi:id="_tAkH0IisEeOcl93ACPg_RQ" name="cI_Estadistica Contrataciones" visibility="private" association="_tAi5sIisEeOcl93ACPg_RQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_VB-nwIisEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Reporte/CI_Estadistica%20Contrataciones?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tAku4YisEeOcl93ACPg_RQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tAku4IisEeOcl93ACPg_RQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_tAkH0IisEeOcl93ACPg_RQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_Estadistica%20Contrataciones?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_tAlV8IisEeOcl93ACPg_RQ?Modelo%20de%20Análisis/Reporte/CI_Estadistica%20Contrataciones/técnico%20de%20Contrataciones?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-NMSQIi0EeOcl93ACPg_RQ" navigableOwnedEnd="_-NM5UIi0EeOcl93ACPg_RQ">
+      <ownedEnd xmi:id="_-NM5UIi0EeOcl93ACPg_RQ" name="cI_MenuPpal" visibility="private" association="_-NMSQIi0EeOcl93ACPg_RQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_qdcxMIi0EeOcl93ACPg_RQ?Modelo%20de%20Análisis/Contratos/CI_MenuPpal?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-NM5Uoi0EeOcl93ACPg_RQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-NM5UYi0EeOcl93ACPg_RQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_-NM5UIi0EeOcl93ACPg_RQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_MenuPpal?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_-NOHcIi0EeOcl93ACPg_RQ?Modelo%20de%20Análisis/Contratos/CI_MenuPpal/administrador%20del%20Sistema?"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-gBHoIi0EeOcl93ACPg_RQ" navigableOwnedEnd="_-gBusIi0EeOcl93ACPg_RQ">
+      <ownedEnd xmi:id="_-gBusIi0EeOcl93ACPg_RQ" name="cI_Evaluar Solicitud Nueva Conexion" visibility="private" association="_-gBHoIi0EeOcl93ACPg_RQ">
+        <type xmi:type="uml:Class" href="Modelo%20de%20Análisis.emx#_NvKn0Ii0EeOcl93ACPg_RQ?Modelo%20de%20Análisis/Contratos/CI_Evaluar%20Solicitud%20Nueva%20Conexion?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-gCVwYi0EeOcl93ACPg_RQ" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-gCVwIi0EeOcl93ACPg_RQ" value="1"/>
+      </ownedEnd>
+      <memberEnd href="#_-gBusIi0EeOcl93ACPg_RQ?Modelo%20de%20Caso%20de%20Uso/Actores/%3CAsociación%3E/cI_Evaluar%20Solicitud%20Nueva%20Conexion?"/>
+      <memberEnd href="Modelo%20de%20Análisis.emx#_-gEK8Ii0EeOcl93ACPg_RQ?Modelo%20de%20Análisis/Contratos/CI_Evaluar%20Solicitud%20Nueva%20Conexion/administrador%20del%20Sistema?"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_7rrSsOOrEeKF9bMn8CeBMw" name="Casos de Uso">
     <eAnnotations xmi:id="_7rr5wOOrEeKF9bMn8CeBMw" source="uml2.diagrams" references="_7rsg0OOrEeKF9bMn8CeBMw">
