@@ -893,16 +893,6 @@
         <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bI0h4Yf2EeOS_orr-9I6qQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
         <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zi5EEIf2EeOS_orr-9I6qQ" id="(0.8174054493696624,0.12178517397881997)"/>
       </edges>
-      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_bI3lMIf2EeOS_orr-9I6qQ" element="_T1Q0sIf2EeOS_orr-9I6qQ" source="_QqJU-FMvEeOthKmdsOvHPA" target="_bIwQcIf2EeOS_orr-9I6qQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
-        <children xmi:type="notation:DecorationNode" xmi:id="_bI3lMof2EeOS_orr-9I6qQ" type="KindLabel">
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_bI4MQYf2EeOS_orr-9I6qQ" type="Stereotype"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_bI4zUIf2EeOS_orr-9I6qQ" type="Kind"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_bI4MQof2EeOS_orr-9I6qQ" type="Name"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bI4MQIf2EeOS_orr-9I6qQ" y="-186"/>
-        </children>
-        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bI3lMYf2EeOS_orr-9I6qQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-        <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0JlQoIf2EeOS_orr-9I6qQ" id="(0.258235054900366,0.2216338880484115)"/>
-      </edges>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_bI4zUYf2EeOS_orr-9I6qQ" element="_ah2b8GXdEeOfRbnW-BV_tg" source="_QqJ8CFMvEeOthKmdsOvHPA" target="_bIwQcIf2EeOS_orr-9I6qQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_bI5aYIf2EeOS_orr-9I6qQ" type="KindLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_bI5aYof2EeOS_orr-9I6qQ" type="Stereotype"/>
@@ -2002,15 +1992,6 @@
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Qnr8EGXhEeOfRbnW-BV_tg" points="[-27, -16, 208, 125]$[-205, -121, 30, 20]"/>
           </edges>
-          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_T1SC0If2EeOS_orr-9I6qQ" element="_T1Q0sIf2EeOS_orr-9I6qQ" source="_h48MUEczEeOCOPaUCRG36A" target="_SJoXUGXeEeOfRbnW-BV_tg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
-            <children xmi:type="notation:DecorationNode" xmi:id="_T1Sp4If2EeOS_orr-9I6qQ" type="KindLabel">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_T1Sp4of2EeOS_orr-9I6qQ" type="Stereotype"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_T1Sp5If2EeOS_orr-9I6qQ" type="Kind"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_T1Sp44f2EeOS_orr-9I6qQ" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T1Sp4Yf2EeOS_orr-9I6qQ" y="-186"/>
-            </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T1SC0Yf2EeOS_orr-9I6qQ" points="[16, -16, -114, 110]$[154, -145, 24, -19]"/>
-          </edges>
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_96zmQOO3EeKF9bMn8CeBMw" name="Generar Informe de Inspección de Predio"/>
@@ -2023,7 +2004,6 @@
         <include xmi:id="_ah2b8GXdEeOfRbnW-BV_tg" addition="_DiQzgFNBEeOq3OsgXDqhPA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_h4ybUEczEeOCOPaUCRG36A" name="Generar Ruta para la Inspección">
-        <include xmi:id="_T1Q0sIf2EeOS_orr-9I6qQ" addition="_DiQzgFNBEeOq3OsgXDqhPA"/>
         <extensionPoint xmi:id="_TMSwMIf2EeOS_orr-9I6qQ" name="Puntodeextensión1"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_37BmoEc3EeOCOPaUCRG36A" name="Verificar Cambio de Categoría"/>

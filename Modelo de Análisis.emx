@@ -143,14 +143,6 @@
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MWpxcYgfEeOS_orr-9I6qQ" points="[35, 14, -366, -126]$[410, 130, 9, -10]"/>
         </edges>
-        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_QmoY4IgfEeOS_orr-9I6qQ" element="_QmlVkIgfEeOS_orr-9I6qQ" source="_87XhwEc8EeOCOPaUCRG36A" target="_jr8toGXVEeONac45-K04OQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
-          <children xmi:type="notation:DecorationNode" xmi:id="_QmoY4ogfEeOS_orr-9I6qQ" type="NameLabel">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qmo_8IgfEeOS_orr-9I6qQ" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_Qmo_8YgfEeOS_orr-9I6qQ" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QmoY44gfEeOS_orr-9I6qQ" y="-186"/>
-          </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QmoY4YgfEeOS_orr-9I6qQ" points="[18, 22, -120, -118]$[176, 139, 38, -1]"/>
-        </edges>
       </contents>
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_RhK6EGXnEeOlbaxvXdvOag" type="Class" name="Modelo Conceptual">
         <children xmi:type="umlnotation:UMLShape" xmi:id="_kgIlwGaoEeOOLuQla0j-6w" element="_ksLtsGX4EeOt36DEbQu3mw" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
@@ -1834,17 +1826,6 @@
           <element xmi:type="uml:Include" href="Modelo%20de%20Caso%20de%20Uso.emx#_CuJiwIf2EeOS_orr-9I6qQ?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Contratación%20de%20Servicios/Registrar%20Pago/%3CInclusión%3E?"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YUPsEIf3EeOS_orr-9I6qQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YUPsEYf3EeOS_orr-9I6qQ" id="(0.8174054493696624,0.12178517397881997)"/>
-        </edges>
-        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_YUPsEof3EeOS_orr-9I6qQ" source="_YUDe0If3EeOS_orr-9I6qQ" target="_YUIXQIf3EeOS_orr-9I6qQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
-          <children xmi:type="notation:DecorationNode" xmi:id="_YUPsE4f3EeOS_orr-9I6qQ" type="KindLabel">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_YUPsFIf3EeOS_orr-9I6qQ" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_YUPsFYf3EeOS_orr-9I6qQ" type="Kind"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_YUPsFof3EeOS_orr-9I6qQ" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YUPsF4f3EeOS_orr-9I6qQ" y="-186"/>
-          </children>
-          <element xmi:type="uml:Include" href="Modelo%20de%20Caso%20de%20Uso.emx#_T1Q0sIf2EeOS_orr-9I6qQ?Modelo%20de%20Caso%20de%20Uso/Casos%20de%20Uso/Cambio%20de%20Categoria%20a%20Solicitud%20del%20Usuario/Generar%20Ruta%20para%20la%20Inspección/%3CInclusión%3E?"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YUPsGIf3EeOS_orr-9I6qQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YUPsGYf3EeOS_orr-9I6qQ" id="(0.258235054900366,0.2216338880484115)"/>
         </edges>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_YUQTEIf3EeOS_orr-9I6qQ" source="_YUEF1If3EeOS_orr-9I6qQ" target="_YUIXQIf3EeOS_orr-9I6qQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_YUQTEYf3EeOS_orr-9I6qQ" type="KindLabel">
@@ -12459,7 +12440,7 @@
       <packagedElement xmi:type="uml:Association" xmi:id="_F5lXMIiqEeOcl93ACPg_RQ" memberEnd="_F5mlUIiqEeOcl93ACPg_RQ _F5nzcIiqEeOcl93ACPg_RQ"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_tVmjsIisEeOcl93ACPg_RQ" memberEnd="_tVnx0IisEeOcl93ACPg_RQ _tVo_8IisEeOcl93ACPg_RQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_87UecEc8EeOCOPaUCRG36A" name="Inspecciones de Predio" clientDependency="_QmlVkIgfEeOS_orr-9I6qQ">
+    <packagedElement xmi:type="uml:Package" xmi:id="_87UecEc8EeOCOPaUCRG36A" name="Inspecciones de Predio">
       <eAnnotations xmi:id="_87VFgEc8EeOCOPaUCRG36A" source="uml2.diagrams" references="_87VFgUc8EeOCOPaUCRG36A">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_87VFgUc8EeOCOPaUCRG36A" type="Freeform" name="Inspección">
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_dTpJ8GXkEeOfRbnW-BV_tg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -14081,7 +14062,6 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iOLbMIgbEeOS_orr-9I6qQ" value="1"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_QmlVkIgfEeOS_orr-9I6qQ" supplier="_jryVkGXVEeONac45-K04OQ" client="_87UecEc8EeOCOPaUCRG36A"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_jryVkGXVEeONac45-K04OQ" name="Cliente">
       <eAnnotations xmi:id="_jr0KwGXVEeONac45-K04OQ" source="uml2.diagrams" references="_jr0KwWXVEeONac45-K04OQ">
